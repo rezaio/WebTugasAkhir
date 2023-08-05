@@ -1,0 +1,233 @@
+CRITICAL - 2023-07-25 02:27:01 --> Call to undefined method App\Models\HarianModel::getActiveSheet
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Harian.php(91): CodeIgniter\Model->__call('getActiveSheet', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 02:27:05 --> Call to undefined method App\Models\HarianModel::getActiveSheet
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Harian.php(91): CodeIgniter\Model->__call('getActiveSheet', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 07:35:06 --> Undefined variable: harian
+in APPPATH\Controllers\Harian.php on line 100.
+ 1 APPPATH\Controllers\Harian.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 100, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 07:38:31 --> Undefined variable: harian
+in APPPATH\Controllers\Harian.php on line 100.
+ 1 APPPATH\Controllers\Harian.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 100, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:28:31 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:32:14 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:32:29 --> Call to undefined method App\Controllers\Harian::findAll()
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:34:17 --> Argument 3 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValue() must implement interface PhpOffice\PhpSpreadsheet\Cell\IValueBinder or be null, int given, called in C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php on line 108
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1176.
+ 1 APPPATH\Controllers\Harian.php(108): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 2, 1)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:37:15 --> Undefined property: App\Controllers\Harian::$harians
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harians', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:39:13 --> Undefined variable: harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:40:14 --> syntax error, unexpected ''harian'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Harian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Harian')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Harian')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Harian', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 08:40:28 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 10:28:32 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 10:28:33 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 10:28:34 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 10:37:08 --> Undefined property: App\Controllers\Harian::$hari
+in APPPATH\Controllers\Harian.php on line 91.
+ 1 APPPATH\Controllers\Harian.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$hari', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 11:58:01 --> Undefined index: pembayaran
+in APPPATH\Views\dataharian.php on line 69.
+ 1 APPPATH\Views\dataharian.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembayaran', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataharian.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(19): view('dataharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 11:58:34 --> Undefined property: App\Controllers\Harian::$harian
+in APPPATH\Controllers\Harian.php on line 90.
+ 1 APPPATH\Controllers\Harian.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Harian::$harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 90, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 12:03:05 --> Trying to get property 'nama' of non-object
+in APPPATH\Controllers\Harian.php on line 104.
+ 1 APPPATH\Controllers\Harian.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 104, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 12:03:14 --> Trying to get property 'nama' of non-object
+in APPPATH\Controllers\Harian.php on line 104.
+ 1 APPPATH\Controllers\Harian.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\Harian.php', 104, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 12:05:04 --> Argument 3 passed to PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValue() must implement interface PhpOffice\PhpSpreadsheet\Cell\IValueBinder or be null, string given, called in C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php on line 104
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1176.
+ 1 APPPATH\Controllers\Harian.php(104): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 2, 'dasdada')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->export()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-07-25 12:45:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'deperkasa', 3306, '', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\PdfController.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\PdfController->rekapan()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\web_deperkasa\app\Controllers\PdfController.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\PdfController->rekapan()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-25 12:45:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas_harian`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PdfController.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->rekapan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-25 13:12:08 --> Undefined index: pembayaran
+in APPPATH\Views\dataregistrasi.php on line 79.
+ 1 APPPATH\Views\dataregistrasi.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembayaran', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataregistrasi.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataregistrasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataregistrasi', [], true)
+ 5 APPPATH\Controllers\Registrasi.php(17): view('dataregistrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

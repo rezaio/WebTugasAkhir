@@ -1,0 +1,71 @@
+CRITICAL - 2023-06-11 07:41:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(56): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('assets', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-06-11 07:41:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(56): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('assets', 'js', 'init', 'weather-init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-06-11 07:41:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(56): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('assets', 'js', 'init', 'fullcalendar-init.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-06-11 07:41:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(56): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'logo3.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-06-11 07:41:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(56): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-06-11 07:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 07:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 16:10:02 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Minuman.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('minuman')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('minuman')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('minuman')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

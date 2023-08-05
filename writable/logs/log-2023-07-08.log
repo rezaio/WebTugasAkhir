@@ -1,0 +1,24 @@
+CRITICAL - 2023-07-08 13:23:33 --> Undefined variable: minuman
+in APPPATH\Views\dataminuman.php on line 90.
+ 1 APPPATH\Views\dataminuman.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minuman', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataminuman', [], true)
+ 5 APPPATH\Controllers\Minuman.php(22): view('dataminuman')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Minuman->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minuman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-08 13:24:21 --> Undefined variable: minuman
+in APPPATH\Views\dataminuman.php on line 91.
+ 1 APPPATH\Views\dataminuman.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minuman', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php', 91, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataminuman', [], true)
+ 5 APPPATH\Controllers\Minuman.php(22): view('dataminuman')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Minuman->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minuman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

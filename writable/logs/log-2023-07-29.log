@@ -1,0 +1,42 @@
+CRITICAL - 2023-07-29 04:26:21 --> Invalid file: "/pdf_minuman.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pdf_minuman.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/pdf_minuman', [], true)
+ 3 APPPATH\Controllers\PdfController.php(40): view('/pdf_minuman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->rekapMinuman()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-29 04:27:28 --> Invalid file: "/pdf_registrasi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pdf_registrasi.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/pdf_registrasi', [], true)
+ 3 APPPATH\Controllers\PdfController.php(57): view('/pdf_registrasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->rekapRegistrasi()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-29 04:32:54 --> Invalid file: "/pdf_minuman.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pdf_minuman.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/pdf_minuman', [], true)
+ 3 APPPATH\Controllers\PdfController.php(40): view('/pdf_minuman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->rekapMinuman()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-07-29 04:34:09 --> Undefined variable: minumans
+in APPPATH\Views\pdf\pdf_minuman.php on line 77.
+ 1 APPPATH\Views\pdf\pdf_minuman.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minumans', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\pdf\\pdf_minuman.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\pdf\\pdf_minuman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pdf/pdf_minuman', [], true)
+ 5 APPPATH\Controllers\PdfController.php(40): view('pdf/pdf_minuman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->rekapMinuman()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
