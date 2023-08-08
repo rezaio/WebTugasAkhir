@@ -35,7 +35,6 @@ class Harian extends BaseController
             'no_telp' => $this->request->getPost('no_telp'),
             'waktu' => $this->request->getPost('waktu'),
             'kelas' => $this->request->getPost('kelas'),
-            'pembayaran' => $this->request->getPost('pembayaran'),
             'harga' => $this->request->getPost('harga'),
 
         ]);
@@ -75,7 +74,6 @@ class Harian extends BaseController
             'no_telp' => $this->request->getPost('no_telp'),
             'waktu' => $this->request->getPost('waktu'),
             'kelas' => $this->request->getPost('kelas'),
-            'pembayaran' => $this->request->getPost('pembayaran'),
             'harga' => $this->request->getPost('harga'),
 
         ]);

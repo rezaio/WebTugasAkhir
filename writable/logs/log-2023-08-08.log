@@ -1,0 +1,806 @@
+CRITICAL - 2023-08-08 03:48:29 --> Undefined index: nama
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 03:50:53 --> Undefined index: nama
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 03:51:05 --> Undefined index: nama
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 03:53:02 --> Undefined index: 
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 03:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 03:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:05:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:05:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:06:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:07:10 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:09:21 --> Invalid argument supplied for foreach()
+in APPPATH\Views\profil.php on line 20.
+ 1 APPPATH\Views\profil.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:10:23 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:14:32 --> Undefined variable: users
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:15:04 --> Undefined variable: users
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:15:20 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:15:22 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:15:40 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:15:42 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:16:00 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:16:02 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:16:05 --> Illegal string offset 'username'
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(17): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:30:54 --> Undefined index: pembayaran
+in APPPATH\Views\editharian.php on line 86.
+ 1 APPPATH\Views\editharian.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembayaran', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(62): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:31:08 --> Undefined index: pembayaran
+in APPPATH\Views\editregistrasi.php on line 112.
+ 1 APPPATH\Views\editregistrasi.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembayaran', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editregistrasi.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editregistrasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editregistrasi', [], true)
+ 5 APPPATH\Controllers\Registrasi.php(68): view('editregistrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrasi->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:37:09 --> Undefined variable: pengunjung
+in APPPATH\Views\profil.php on line 27.
+ 1 APPPATH\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengunjung', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(18): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:37:11 --> Undefined variable: pengunjung
+in APPPATH\Views\profil.php on line 27.
+ 1 APPPATH\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengunjung', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(18): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:37:12 --> Undefined variable: pengunjung
+in APPPATH\Views\profil.php on line 27.
+ 1 APPPATH\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengunjung', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(18): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:37:38 --> Undefined index: id_user
+in APPPATH\Views\profil.php on line 27.
+ 1 APPPATH\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(18): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:41:42 --> Undefined variable: users
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:43:14 --> Illegal string offset 'username'
+in APPPATH\Views\editprofil.php on line 23.
+ 1 APPPATH\Views\editprofil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:44:03 --> Illegal string offset 'username'
+in APPPATH\Views\editprofil.php on line 23.
+ 1 APPPATH\Views\editprofil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:46:25 --> Illegal string offset 'username'
+in APPPATH\Views\editprofil.php on line 23.
+ 1 APPPATH\Views\editprofil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:46:26 --> Illegal string offset 'username'
+in APPPATH\Views\editprofil.php on line 23.
+ 1 APPPATH\Views\editprofil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:46:39 --> Illegal string offset 'username'
+in APPPATH\Views\editprofil.php on line 23.
+ 1 APPPATH\Views\editprofil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'username\'', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:46:45 --> Undefined index: nama
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:47:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:47:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:48:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:50:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:50:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 33.
+ 1 APPPATH\Views\editprofil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:50:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:53:55 --> Undefined index: pembayaran
+in APPPATH\Views\editharian.php on line 86.
+ 1 APPPATH\Views\editharian.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: pembayaran', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(62): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:54:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(62): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:54:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:55:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:56:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:56:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(62): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-08 04:56:49 --> mysqli_sql_exception: Unknown column 'pembayaran' in 'field list' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php(79): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Harian->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-08 04:56:49 --> Unknown column 'pembayaran' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza oktario\', \'0897644099\', \'15:03:00\', \'kick boxing\', NULL, \'25.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza oktario\', \'0897644099\', \'15:03:00\', \'kick boxing\', NULL, \'25.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza oktario\', \'0897644099\', \'15:03:00\', \'kick boxing\', NULL, \'25.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (:id_kh:, :nama:, :no_telp:, :waktu:, :kelas:, :pembayaran:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\Harian.php(79): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:56:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(62): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-08 04:57:01 --> mysqli_sql_exception: Unknown column 'pembayaran' in 'field list' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php(79): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Harian->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-08 04:57:01 --> Unknown column 'pembayaran' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (:id_kh:, :nama:, :no_telp:, :waktu:, :kelas:, :pembayaran:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\Harian.php(79): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-08 04:57:44 --> mysqli_sql_exception: Unknown column 'pembayaran' in 'field list' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php(78): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Harian->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-08 04:57:44 --> Unknown column 'pembayaran' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (:id_kh:, :nama:, :no_telp:, :waktu:, :kelas:, :pembayaran:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\Harian.php(78): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 04:57:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\editharian.php on line 45.
+ 1 APPPATH\Views\editharian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editharian', [], true)
+ 5 APPPATH\Controllers\Harian.php(61): view('editharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-08 04:57:48 --> mysqli_sql_exception: Unknown column 'pembayaran' in 'field list' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `k...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Harian.php(78): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Harian->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-08 04:57:48 --> Unknown column 'pembayaran' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (\'21\', \'Reza\', \'0897644099\', \'15:03\', \'kick boxing\', NULL, \'25.000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `kelas_harian` (`id_kh`, `nama`, `no_telp`, `waktu`, `kelas`, `pembayaran`, `harga`) VALUES (:id_kh:, :nama:, :no_telp:, :waktu:, :kelas:, :pembayaran:, :harga:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\Harian.php(78): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Harian->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harian))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 04:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 04:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 04:58:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:01:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:01:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:05:36 --> Undefined variable: harian
+in APPPATH\Views\editprofil.php on line 55.
+ 1 APPPATH\Views\editprofil.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:06:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:07:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-08 05:07:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-08 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-08 05:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-08 05:09:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\editprofil.php on line 22.
+ 1 APPPATH\Views\editprofil.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(28): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('images', 'admin.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

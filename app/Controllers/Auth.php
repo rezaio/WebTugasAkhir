@@ -30,7 +30,6 @@ class Auth extends BaseController
             if ($verify_pass) {
                 $ses_data = [
                     'id_user'   => $data['id_user'],
-                    'nama'      => $data['nama'],
                     'username'  => $data['username'],
                     'logged_in' => TRUE
                 ];
@@ -50,9 +49,10 @@ class Auth extends BaseController
     {
         $user = new UsersModel();
         $user->save([
-            'nama' => $this->request->getVar('nama'),
             'username' => $this->request->getVar('username'),
             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'email' => $this->request->getVar('email'),
+            'jabatan' => $this->request->getVar('jabatan'),
         ]);
 
         session()->setFlashdata('pesan', 'User berhasil ditambahkan');

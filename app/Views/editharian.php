@@ -77,19 +77,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-8">
-                                                <div class="form-group">
-                                                    <label for="name">Pembayaran</label>
-                                                    <div class="form-group">
-                                                        <select name="pembayaran" class="form-control" id="basicSelect">
-                                                        <option selected disabled>-- Pilih Kategori --</option>
-                                                            <option <?php if($harian['pembayaran'] == "cash") { echo 'selected';} ?> value="cash">Cash</option>
-                                                            <option <?php if($harian['pembayaran'] == "tranfer") { echo 'selected';} ?> value="tranfer">Transfer</option>   
-                                                        </select>   
-        
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>

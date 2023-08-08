@@ -557,7 +557,7 @@ canvas {
 /* Global Styles */
 /* Main Styles */
 aside.left-panel {
-  background: #131c21;
+  background: #138a97;
   height: 100vh;
   padding: 0;
   vertical-align: top;
@@ -579,7 +579,7 @@ aside.left-panel {
   margin-left: 83px; }
 
 .navbar {
-  background: #131c21;
+  background: #138a97;
   border-radius: 0;
   border: none;
   display: inline-block;
@@ -608,17 +608,17 @@ aside.left-panel {
       padding-left: 30px;
       padding-right: 30px; }
       .navbar .navbar-nav > li.active {
-        background: #131c21; }
+        background: #138a97; }
     .navbar .navbar-nav li {
       width: 100%; }
       .navbar .navbar-nav li.active .menu-icon, .navbar .navbar-nav li:hover .toggle_nav_button:before,
       .navbar .navbar-nav li .toggle_nav_button.nav-open:before {
-        color: #fff; }
+        color: #000000; }
       .navbar .navbar-nav li .dropdown-toggle:after {
         display: none; }
       .navbar .navbar-nav li > a {
         background: none !important;
-        color: #607d8b;
+        color: #ffffff;
         display: inline-block;
         font-size: 14px;
         line-height: 26px;
@@ -626,9 +626,9 @@ aside.left-panel {
         position: relative;
         width: 100%; }
         .navbar .navbar-nav li > a:hover, .navbar .navbar-nav li > a:hover .menu-icon {
-          color: #03a9f3; }
+          color: #000000; }
         .navbar .navbar-nav li > a .menu-icon {
-          color: #607d8b;
+          color: #ffffff;
           float: left;
           margin-top: 8px;
           width: 55px;
@@ -672,7 +672,7 @@ aside.left-panel {
           .navbar .navbar-nav li.menu-item-has-children .sub-menu li {
             position: relative; }
           .navbar .navbar-nav li.menu-item-has-children .sub-menu i {
-            color: #c8c9ce;
+            color: #000000;
             float: left;
             padding: 0;
             position: absolute;
@@ -2451,12 +2451,14 @@ footer.site-footer {
 
     .gradient-custom {
       /* fallback for old browsers */
-      background: #f6d365;
+      background: #17a2b8;
       
       /* Chrome 10-25, Safari 5.1-6 */
-      background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+      background: -webkit-linear-gradient(to right bottom, #17a2b8 (246, 211, 101, 1),#17a2b8 (253, 160, 133, 1));
       
       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+      background: linear-gradient(to right bottom, #17a2b8 (246, 211, 101, 1), #17a2b8 (253, 160, 133, 1))
       }
 /*# sourceMappingURL=style.css.map */
+
+

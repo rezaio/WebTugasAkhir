@@ -461,13 +461,12 @@ canvas {
     width: 10px;
     background: #e8e9ef; }
   .order-table:after {
-    right: 0px; }
+    right: -1px; }
   .order-table:before {
     left: -1px; }
   .order-table tr th {
     background: #e8e9ef; }
-  .order-table tr td:last-child, .order-table tr th:last-child {
-    text-align: right; }
+
   .order-table tr:last-child td {
     border: none; }
   .order-table .badge {
@@ -821,6 +820,7 @@ aside.left-panel {
     text-align: center; }
 
 /* Right panel */
+
 .right-panel {
   background: #f1f2f7;
   margin-left: 280px;
@@ -864,7 +864,7 @@ aside.left-panel {
   -webkit-box-shadow: none;
           box-shadow: none;
   clear: both;
-  padding: 0 30px;
+  padding: 0 30px 0 0;
   height: 55px;
   position: fixed;
   left: 280px;
@@ -951,15 +951,7 @@ header .form-inline {
     header .form-inline .search-form input[type="text"]:focus {
       border-color: rgba(0, 0, 0, 0.125);
       outline: 0; }
-    header .form-inline .search-form button {
-      background: transparent;
-      border: none;
-      color: #fff;
-      font-size: 16px;
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      margin-top: -14px !important; }
+
     header .form-inline .search-form button:active,
     header .form-inline .search-form button:focus,
     header .form-inline .search-form button:visited,
@@ -2459,7 +2451,7 @@ footer.site-footer {
       z-index: 999;
       border-bottom: 1px solid #dcdcdc; }
     .right-panel header.header .top-right {
-      padding: 0 30px; }
+      padding: 0 30px 0 0; }
 
   .small-device .right-panel {
     margin-left: 0; }

@@ -103,19 +103,7 @@
                                                     <input type="text" value="<?= $registrasi['pelatih']; ?>" class="form-control" placeholder="Masukkan Nomor Member" id="name">
                                                   </div>
                                             </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label for="name">Pembayaran</label>
-                                                    <div class="form-group">
-                                                        <select name="pembayaran" class="form-control" id="basicSelect">
-                                                            <option selected disabled>-- Pilih Kategori --</option>
-                                                            <option <?php if($registrasi['pembayaran'] == "cash") { echo 'selected';} ?> value="cash">Cash</option>
-                                                            <option <?php if($registrasi['pembayaran'] == "tranfer") { echo 'selected';} ?> value="tranfer">Transfer</option> 
-                                                        </select>   
-        
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
