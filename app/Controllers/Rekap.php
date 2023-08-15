@@ -2,18 +2,34 @@
 
 namespace App\Controllers;
 
-use App\Models\RekapModel;
-
 class Rekap extends BaseController
 {
     public function index()
     {
-        $rekap = new RekapModel();
-        $data = [
-            // 'rekap' => $rekap->findAll(),
-            'rekap' => $rekap->findAll(),
-            
-        ];
-        echo view('datarekap', $data);
+        return view('datarekap');
+    }
+
+    public function kelasharian()
+    {
+        // helper(['form']);
+        echo view('rekap/rekapkelasharian');
+    }
+
+    public function rekapkunjungan()
+    {
+        // helper(['form']);
+        echo view('rekap/rekapkunjungan');
+    }
+
+    public function rekapminuman()
+    {
+        // helper(['form']);
+        echo view('rekap/rekapminuman');
+    }
+
+    public function rekapregistrasi()
+    {
+        // helper(['form']);
+        return view('rekap/rekapregistrasi');
     }
 }

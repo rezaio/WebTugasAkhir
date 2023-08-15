@@ -29,11 +29,14 @@ $routes->setAutoRoute(MYSQLI_DATA_TRUNCATED);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Auth::index');
 
 //export
 $routes->get('harian/export', 'Harian::export');
 $routes->get('minuman/export', 'Minuman::export');
+
+
+$routes->get('rekap/index', 'Rekap::index');
 
 
 //login 

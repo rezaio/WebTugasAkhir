@@ -8,5 +8,5 @@ class RekapModel extends Model
 {
     protected $table      = 'rekap_data';
     protected $primaryKey = 'id_rekap';
-    protected $allowedFields = ['hari', 'tanggal'];
+    protected $allowedFields = ['hari', 'tanggal','minggu'];
 }

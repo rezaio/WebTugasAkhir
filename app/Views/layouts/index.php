@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
-    <link rel="shortcut icon" href="images/admin.jpeg">
+    <link rel="shortcut icon" href="<?= base_url(); ?>images/logo3.png">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
@@ -87,9 +87,9 @@
                     <li class="">
                         <a href="<?= base_url(); ?>minuman"><i class="menu-icon fa fa-glass"></i>Data Minuman </a>
                     </li>
-                    <!-- <li class="">
+                    <li class="">
                         <a href="<?= base_url(); ?>rekap"><i class="menu-icon fa fa-paste"></i>Rekap Data </a>
-                    </li> -->
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -169,6 +169,24 @@
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
     <script src="<?= base_url(); ?>assets/js/init/fullcalendar-init.js"></script>
 
+       <!-- datatable -->
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/datatables.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/jszip.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/vfs_fonts.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/buttons.html5.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/buttons.print.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/lib/data-table/buttons.colVis.min.js"></script>
+   <script src="<?= base_url(); ?>assets/js/init/datatables-init.js"></script>
+
+   <script 
+   type="text/javascript">
+       $(document).ready(function() {
+         $('#data-table').DataTable();
+     } );
+ </script>
     <!--Local Stuff-->
     <script>
         jQuery(document).ready(function($) {
@@ -361,5 +379,42 @@
             // Bar Chart #flotBarChart End
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+
+    <script>
+        var wtf = $.ajax({
+            url: "<?= base_url() . 'home/statistic'; ?>",
+            async: false,
+            dataType: 'json'
+        }).responseJSON;
+
+         //bar chart
+     var ctx = document.getElementById( "barChart" );
+     //    ctx.height = 200;
+     var myChart = new Chart( ctx, {
+         type: 'bar',
+         data: {
+             labels: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Aug", "Sep", "Oct", "Nov", "Dec", ],
+             datasets: [
+                 {
+                     label: "My First dataset",
+                     data: wtf,
+                     borderColor: "rgba(0, 194, 146, 0.9)",
+                     borderWidth: "0",
+                     backgroundColor: "rgba(0, 194, 146, 0.5)"
+                             }
+                         ]
+         },
+         options: {
+             scales: {
+                 yAxes: [ {
+                     ticks: {
+                         beginAtZero: true
+                     }
+                                 } ]
+             }
+         }
+     } );
+</script>
 </body>
 </html>

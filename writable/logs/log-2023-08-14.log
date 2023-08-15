@@ -1,0 +1,405 @@
+INFO - 2023-08-14 08:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 08:37:08 --> Undefined variable: profil
+in APPPATH\Views\profil.php on line 20.
+ 1 APPPATH\Views\profil.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profil', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 20, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(16): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 08:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 08:41:56 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(15): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 08:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 08:43:02 --> Undefined variable: profil
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profil', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(15): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 08:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 08:43:03 --> Undefined variable: profil
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profil', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(15): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 08:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 08:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 08:59:54 --> Undefined variable: profil
+in APPPATH\Views\profil.php on line 20.
+ 1 APPPATH\Views\profil.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profil', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 20, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:00:02 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:01:45 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:02:16 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 26.
+ 1 APPPATH\Views\profil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:04:12 --> Undefined variable: data
+in APPPATH\Views\profil.php on line 27.
+ 1 APPPATH\Views\profil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-14 09:12:32 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `u...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `u...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `u...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `u...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\profil.php(39): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Profil->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-14 09:12:32 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (:id_user:, :username:, :password:, :email:, :jabatan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\profil.php(39): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-14 09:13:58 --> mysqli_sql_exception: Column 'password' cannot be null in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `u...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `u...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `u...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `u...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(494): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(1140): CodeIgniter\Model->doReplace(Array, false)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\profil.php(39): CodeIgniter\BaseModel->replace(Array)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Profil->update()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-14 09:13:58 --> Column 'password' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (NULL, \'admindasd\', NULL, \'admin@gmail.com\', \'resepsionis\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2397): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `user` (`id_user`, `username`, `password`, `email`, `jabatan`) VALUES (:id_user:, :username:, :password:, :email:, :jabatan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(494): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\BaseModel.php(1140): CodeIgniter\Model->doReplace([...], false)
+ 7 APPPATH\Controllers\profil.php(39): CodeIgniter\BaseModel->replace([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:17:26 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:17:39 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:18:58 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:19:14 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:20:56 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:21:06 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:29:47 --> Undefined variable: user
+in APPPATH\Views\editprofil.php on line 32.
+ 1 APPPATH\Views\editprofil.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editprofil', [], true)
+ 5 APPPATH\Controllers\profil.php(24): view('editprofil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:30:52 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 37.
+ 1 APPPATH\Controllers\profil.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:33:31 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 35.
+ 1 APPPATH\Controllers\profil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-14 09:33:56 --> Undefined index: password
+in APPPATH\Controllers\profil.php on line 35.
+ 1 APPPATH\Controllers\profil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: password', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\profil.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 09:55:12 --> Undefined variable: username
+in APPPATH\Views\profil.php on line 25.
+ 1 APPPATH\Views\profil.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php', 25, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\profil.php(13): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 09:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-14 09:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-14 10:34:12 --> mysqli_sql_exception: Unknown column 'type' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\web_deperkasa\app\Controllers\Home.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Home.php(37): App\Controllers\bulan(1)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Home->statistic()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-14 10:34:12 --> Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = :MONTH(tgl_aktivasi):
+AND YEAR(tgl_aktivasi) = :YEAR(tgl_aktivasi):
+AND `type` = :type:', [...], false)
+ 5 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Home.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Home.php(37): App\Controllers\bulan(1)
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->statistic()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-08-14 10:34:23 --> mysqli_sql_exception: Unknown column 'type' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\web_deperkasa\app\Controllers\Home.php(34): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\Home.php(37): App\Controllers\bulan(1)
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\Home->statistic()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-08-14 10:34:23 --> Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = 1
+AND YEAR(tgl_aktivasi) = \'2023\'
+AND `type` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `registrasi`
+WHERE MONTH(tgl_aktivasi) = :MONTH(tgl_aktivasi):
+AND YEAR(tgl_aktivasi) = :YEAR(tgl_aktivasi):
+AND `type` = :type:', [...], false)
+ 5 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Home.php(34): CodeIgniter\Model->countAllResults()
+ 7 APPPATH\Controllers\Home.php(37): App\Controllers\bulan(1)
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->statistic()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-14 14:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -8,6 +8,7 @@
             <div class="animated fadeIn">
                 <!-- Widgets  -->
                 <div class="row">
+           
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body">
@@ -17,7 +18,7 @@
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
-                                            <div class="stat-text">?</span></div>
+                                            <div class="stat-text"><?= $minuman; ?></span></div>
                                             <div class="stat-heading">Data Minuman</div>
                                         </div>
                                     </div>
@@ -25,7 +26,9 @@
                             </div>
                         </div>
                     </div>
+               
                     
+
                     <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <div class="card-body">
@@ -35,8 +38,8 @@
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
-                                            <div class="stat-text"><span class="count"></span></div>
-                                            <div class="stat-heading">Member Harian</div>
+                                            <div class="stat-text"><span class="count"><?= $harian; ?></span></div>
+                                            <div class="stat-heading">Pengunjung Kelas Harian</div>
                                         </div>
                                     </div>
                                 </div>
@@ -52,8 +55,26 @@
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">10</span></div>
-                                            <div class="stat-heading">Member Bulanan</div>
+                                            <div class="stat-text"><span class="count"><?= $member; ?></span></div>
+                                            <div class="stat-heading">Data member</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-4">
+                                        <i class="pe-7s-users"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            <div class="stat-text"><span class="count"><?= $registrasi; ?></span></div>
+                                            <div class="stat-heading">Registrasi member</div>
                                         </div>
                                     </div>
                                 </div>

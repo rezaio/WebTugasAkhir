@@ -9,13 +9,9 @@ class Profil extends BaseController
     public function index()
     {
         $profil = new UsersModel();
-        $data = [
-            // 'profil' => $profil->findAll(),
-            'profil' => $profil->find(session()->get('id_users')),
-            'profil' => $profil->paginate(1, 'users'),
-            
-        ];
+        $data =  $profil->find(session()->get('id_user'));
         echo view('profil', $data);
+        
     }
 
     public function edit($id)
@@ -32,15 +28,14 @@ class Profil extends BaseController
     {
         $profil = new UsersModel();
         $data = $profil->find($this->request->getVar('id_user'));
-        
         $profil->replace([
 
+            'id_user' => $this->request->getPost('id_user'),    
+            'username' => $this->request->getVar('username') ? $this->request->getVar('username') : $data['username'],
+            'password' => empty($this->request->getVar('password')) ? $data['password'] : password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'email' => $this->request->getVar('email') ? $this->request->getVar('email') : $data['email'],
+            'jabatan' => $this->request->getVar('jabatan') ? $this->request->getVar('jabatan') : $data['jabatan'],
 
-            'id_user' => $this->request->getPost('id_user'),
-            'username' => $this->request->getPost('username'),
-            'password' => $this->request->getPost('password'),
-            'email' => $this->request->getPost('email'),
-            'jabatan' => $this->request->getPost('jabatan'),
             
 
         ]);

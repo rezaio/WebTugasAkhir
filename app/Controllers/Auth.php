@@ -34,7 +34,7 @@ class Auth extends BaseController
                     'logged_in' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/');
+                return redirect()->to('/home');
             } else {
                 $session->setFlashdata('msg', 'Password Salah!');
                 return redirect()->to('/login');

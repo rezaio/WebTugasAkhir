@@ -2,57 +2,91 @@
 
 <?= $this->section('content'); ?>
 
-        <!-- Content -->
-        <div class="content">
-            <!-- Animated -->
-            <div class="animated fadeIn">
+<div class="breadcrumbs">
+            <di class="breadcrumbs-inner">
                 <div class="row">
-                </div>
-                <div class="clearfix"></div>
-                <!-- Orders -->
-                <div class="orders">
-                    <div class="row">
-                        <div class="col-xl-10">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="box-title">Rekap Data </h4>
+            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-1">
+                                        <i class="pe-7s-users"></i>
                                     </div>
-                                </div>
-                                </div>
-                                <div class="card-body col-lg-8">
-                                    <div class="table-stats order-table ov-h">
-                                    <table id="<?= base_url(); ?>bootstrap-data-table" class="table table-striped table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>No</th>
-                                                    <th>Hari</th>
-                                                    <th>Tanggal</th>
-                                                    <th>Aksi</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="serial">1.</td>
-                                                    <td>  <span class="name">Senin</span> </td>
-                                                    <td>  <span class="name">12-06-2023</span> </td>
-                                                    <td>
-                                                        <span class="badge badge-complete fa fa-print"> Excel</span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div> 
-                                </div>
-                            </div> 
-                        </div> 
-                        <div class="col-xl-4">
-                                <div class="col-lg-6 col-xl-12">
-                                    <div class="card bg-flat-color-3  ">
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            </div>
+                                            <div class="stat-text"><span class="count">100</span></div>
+                                            <div class="register-link m-t-15">
+                                                <a href="<?= base_url(); ?>rekap/rekapregistrasi">Registrasi Member</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-2">
+                                        <i class="pe-7s-users"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            </div>
+                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="register-link m-t-15">
+                                                <a href="<?= base_url(); ?>rekap/rekapkunjungan">Kunjungan Member</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-3">
+                                        <i class="pe-7s-users"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            </div>
+                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="register-link m-t-15">
+                                                <a href="<?= base_url(); ?>rekap/kelasharian">Data Kelas Harian</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="stat-widget-five">
+                                    <div class="stat-icon dib flat-color-5">
+                                        <i class="pe-7s-cart"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="text-left dib">
+                                            </div>
+                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="register-link m-t-15">
+                                                <a href="<?= base_url(); ?>rekap/rekapminuman">Data Minuman</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
+            </div>
+        </div>
+
         <!-- /.content -->
+        <div class="clearfix"></div>
+        
         <?= $this->endSection(); ?> 

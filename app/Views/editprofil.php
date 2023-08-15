@@ -28,6 +28,8 @@
                                   <hr class="mt-0 mb-4">
                                   <div class="row pt-1">
                                     <div class="col-6 mb-3">
+                                    <form action="<?= base_url(); ?>profil/update" method="POST">
+                                    <input type="number" name="id_user" hidden value="<?= $profil['id_user']; ?>">
                                         <div class="form-group">
                                             <label for="name">Username</label>
                                             <input name="username" value="<?= $profil['username']; ?>" type="text" class="form-control" placeholder="Masukkan Username" id="name">
@@ -42,7 +44,7 @@
                                     <div class="col-6 mb-3">
                                         <div class="form-group">
                                             <label for="name">Password</label>
-                                            <input name="password " value="" type="password" class="form-control" placeholder="Masukkan Password" id="password">
+                                            <input name="password" type="password" class="form-control" placeholder="Masukkan Password" id="password">
                                           </div>
                                     </div>
                                     <div class="col-6 mb-3">
@@ -52,7 +54,7 @@
                                           </div>
                                       </div>
                                     </div>
-                                    <input type="number" value="<?= $profil['id_user']; ?>" name="id_user" hidden>
+                                    
                                     <input class=" col-lg-2 top-left btn btn-primary" type="submit" value="Submit">
                                   </div>
                                 </div>

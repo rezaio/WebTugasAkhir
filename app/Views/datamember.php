@@ -33,9 +33,9 @@
                                 <h4 class="box-title"> Daftar Tabel </h4>
                                 <!-- Button trigger modal -->
                           
-                            <a type="button" class="btn btn-success fa fa-print" href="///">
+                            <!-- <a type="button" class="btn btn-success fa fa-print" href="///">
                                Excel</a>
-                               <a type="button" class="btn btn-danger fa fa-print" href="#">PDF</a>
+                               <a type="button" class="btn btn-danger fa fa-print" href="#">PDF</a> -->
                             </div>
                             <div class="card-body">
                                 <table id="bootstrap-data-table" class="table table-striped table-bordered">

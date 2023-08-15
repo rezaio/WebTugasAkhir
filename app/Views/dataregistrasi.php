@@ -34,9 +34,9 @@
                                     <!-- Button trigger modal -->
                                 <a type="button" class="btn btn-primary fa fa-plus" href="<?= base_url(); ?>registrasi/add">
                                 Member </a>
-                                <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>registrasi/export">
+                                <!-- <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>registrasi/export">
                                    Excel</a>
-                                   <a type="button" class="btn btn-danger fa fa-print" href="<?= base_url(); ?>pdfcontroller/rekapRegistrasi">PDF</a>
+                                   <a type="button" class="btn btn-danger fa fa-print" href="<?= base_url(); ?>pdfcontroller/rekapRegistrasi">PDF</a> -->
                                 </div>
                                 <table id="bootstrap-data-table" class="table table-striped table-bordered">
                                             <thead>

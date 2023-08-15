@@ -36,10 +36,10 @@
                                     <!-- Button trigger modal -->
                                 <a type="button" class="btn btn-primary fa fa-plus" href="<?= base_url(); ?>harian/add">
                                 kunjungan harian </a>
-                                <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>harian/export">
+                                <!-- <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>harian/export">
                                    Excel</a>
                                 <a type="button" class="btn btn-danger fa fa-print" href="<?= base_url(); ?>pdfcontroller/rekapHarian">
-                                    PDF</a>
+                                    PDF</a> -->
                                 </div>
                                 
                                 

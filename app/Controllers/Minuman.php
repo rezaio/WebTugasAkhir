@@ -16,6 +16,7 @@ class Minuman extends BaseController
         $data = [
             // 'minuman' => $minuman->findAll(),
             'minuman' => $minuman->findAll(),
+            'pager' => $minuman->pager
             
         ];
         echo view('dataminuman', $data);
@@ -39,6 +40,13 @@ class Minuman extends BaseController
         ]);
 
         session()->setFlashdata('pesan', 'Minuman berhasil ditambahkan');
+        return redirect()->to('minuman');
+    }
+    public function delete()
+    {
+        $minuman = new MinumanModel();
+        $minuman->delete($this->request->getPost('id_minuman'));
+        session()->setFlashdata('pesan', 'Data minuman berhasil dihapus');
         return redirect()->to('minuman');
     }
 
