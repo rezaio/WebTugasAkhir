@@ -35,6 +35,12 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="form-group">
+                                                    <label for="name">Tanggal</label>
+                                                    <input name="tanggal" type="date" class="form-control" id="name">
+                                                  </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
                                                     <label for="exampleInputEmail1">Waktu</label>
                                                     <input name="waktu" type="time" class="form-control" placeholder="Masukkan Waktu" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                   </div>
@@ -64,10 +70,18 @@
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
-                                                    <input name="harga" type="number" class="form-control" placeholder="Masukkan Harga" id="name" aria-describedby="emailHelp">
-                                                  </div>
+                                                    <div class="form-group">
+                                                        <select name="harga" class="form-control" id="basicSelect">
+                                                            <option selected disabled>-- Pilih Kategori --</option>
+                                                            <option>25.000</option>
+                                                            <option>30.000</option> 
+                                                            <option>35.000</option> 
+                                                                                                                                    
+                                                        </select>   
+        
+                                                    </div>
+                                                </div>
                                             </div>
-                                            
                                                  
                                         </div class="col-md-2">
 

@@ -53,6 +53,12 @@
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="form-group">
+                                                    <label for="exampleInputEmail1">Tanggal</label>
+                                                    <input name="tanggal" value="<?= $harian['tanggal']; ?>" type="date" class="form-control" placeholder="Masukkan tanggal" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                  </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
                                                     <label for="exampleInputEmail1">Waktu</label>
                                                     <input name="waktu" value="<?= $harian['waktu']; ?>" type="time" class="form-control" placeholder="Masukkan Waktu" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                   </div>
@@ -81,8 +87,17 @@
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
-                                                    <input name="harga" type="number" value="<?= $harian['harga']; ?>" class="form-control" placeholder="Masukkan Harga" id="name" aria-describedby="emailHelp">
-                                                  </div>
+                                                    <div class="form-group">
+                                                        <option selected disabled>-- Pilih Kategori --</option>
+                                                        <select name="harga" value="<?= $harian['harga']; ?>" class="form-control" id="basicSelect">
+                                                            <option>25.000</option>
+                                                            <option>30.000</option> 
+                                                            <option>35.000</option> 
+                                                                                                                                    
+                                                        </select>   
+        
+                                                    </div>
+                                                </div>
                                             </div>
 
                                             

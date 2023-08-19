@@ -15,7 +15,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="text-left dib">
-                                                <div class="stat-text"><span class="count">150</span></div>
+                                                <div class="stat-text"><span class="count"><?= $member; ?></span></div>
                                                 <div class="stat-heading">Kunjungan Member</div>
                                              </div>
                                     </div>

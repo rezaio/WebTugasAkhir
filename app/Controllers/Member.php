@@ -33,6 +33,7 @@ class Member extends BaseController
             'id_km' => $this->request->getPost('id_member'),
             'nama' => $this->request->getPost('nama'),
             'no_member' => $this->request->getPost('no_member'),
+            'tanggal' => $this->request->getPost('tanggal'),
             'waktu' => $this->request->getPost('waktu'),
         ]);
 

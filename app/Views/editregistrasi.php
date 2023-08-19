@@ -107,8 +107,17 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
-                                                    <input type="text" value="<?= $registrasi['harga']; ?>" class="form-control" placeholder="Masukkan Nomor Member" id="name">
-                                                  </div>
+                                                    <div class="form-group">
+                                                        <option selected disabled>-- Pilih Kategori --</option>
+                                                        <select name="harga" value="<?= $registrasi['harga']; ?>" class="form-control" id="basicSelect">
+                                                            <option>250.000</option>
+                                                            <option>600.000</option> 
+                                                            <option>1.200.000</option> 
+                                                            <option>1.000.000</option> 
+                                                        </select>   
+        
+                                                    </div>
+                                                </div>
                                             </div>
                                              </div 
                                               class="col-md-2">

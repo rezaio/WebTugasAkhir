@@ -1,0 +1,134 @@
+INFO - 2023-08-17 02:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-17 02:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-17 02:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-17 02:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-17 02:22:33 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:23:36 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:23:37 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:24:22 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:27:39 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:28:27 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:28:28 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:28:59 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:29:00 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:29:01 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:29:26 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:29:27 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-17 02:29:36 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

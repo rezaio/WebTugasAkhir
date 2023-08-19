@@ -1,0 +1,55 @@
+CRITICAL - 2023-08-18 04:46:08 --> Invalid file: "kelasharian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelasharian.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelasharian', [], true)
+ 3 APPPATH\Controllers\ExcelController.php(79): view('kelasharian')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-18 04:46:57 --> Undefined variable: harian
+in APPPATH\Views\dataharian.php on line 60.
+ 1 APPPATH\Views\dataharian.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harian', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataharian.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataharian', [], true)
+ 5 APPPATH\Controllers\ExcelController.php(79): view('dataharian')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelController->export()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-18 23:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 23:47:53 --> Undefined variable: minuman
+in APPPATH\Views\dataminuman.php on line 98.
+ 1 APPPATH\Views\dataminuman.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minuman', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataminuman', [], true)
+ 5 APPPATH\Controllers\Minuman.php(27): view('dataminuman')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Minuman->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minuman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-18 23:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 23:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 23:53:23 --> Undefined variable: minuman
+in APPPATH\Views\dataminuman.php on line 98.
+ 1 APPPATH\Views\dataminuman.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: minuman', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\dataminuman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dataminuman', [], true)
+ 5 APPPATH\Controllers\Minuman.php(27): view('dataminuman')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Minuman->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minuman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

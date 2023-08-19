@@ -15,7 +15,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="text-left dib">
-                                                <div class="stat-text"><span class="count">150</span></div>
+                                                <div class="stat-text"><span class="count"><?= $minuman; ?></span></div>
                                                 <div class="stat-heading">Data Minuman</div>
                                              </div>
                                     </div>

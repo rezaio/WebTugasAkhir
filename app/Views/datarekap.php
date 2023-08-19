@@ -16,7 +16,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             </div>
-                                            <div class="stat-text"><span class="count">100</span></div>
+                                            <div class="stat-text"><span class="count"><?= $registrasi; ?></span></div>
                                             <div class="register-link m-t-15">
                                                 <a href="<?= base_url(); ?>rekap/rekapregistrasi">Registrasi Member</a>
                                         </div>
@@ -36,7 +36,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             </div>
-                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="stat-text"><span class="count"><?= $member; ?></span></div>
                                             <div class="register-link m-t-15">
                                                 <a href="<?= base_url(); ?>rekap/rekapkunjungan">Kunjungan Member</a>
                                         </div>
@@ -55,7 +55,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             </div>
-                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="stat-text"><span class="count"><?= $harian; ?></span></div>
                                             <div class="register-link m-t-15">
                                                 <a href="<?= base_url(); ?>rekap/kelasharian">Data Kelas Harian</a>
                                         </div>
@@ -74,7 +74,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             </div>
-                                            <div class="stat-text"><span class="count">150</span></div>
+                                            <div class="stat-text"><span class="count"><?= $minuman; ?></span></div>
                                             <div class="register-link m-t-15">
                                                 <a href="<?= base_url(); ?>rekap/rekapminuman">Data Minuman</a>
                                         </div>

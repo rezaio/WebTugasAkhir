@@ -44,6 +44,7 @@
                                             <th>No</th>
                                             <th>Nama</th>
                                             <th>Nomor Member</th>
+                                            <th>Tanggal</th>
                                             <th>Waktu</th>
                                             <th>Aksi</th>
                                         </tr>
@@ -55,6 +56,7 @@
                                             <td><?= $no++; ?></td>
                                             <td><?= $members['nama']; ?></td>
                                             <td><?= $members['no_member']; ?></td>
+                                            <td><?= $members['tanggal']; ?></td>
                                             <td><?= $members['waktu']; ?></td>
                                             <td>
 

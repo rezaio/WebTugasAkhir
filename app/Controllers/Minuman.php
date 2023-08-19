@@ -25,7 +25,6 @@ class Minuman extends BaseController
     public function add()
     {
         echo view('dataminuman');
-
     }
 
     public function save()
@@ -37,6 +36,7 @@ class Minuman extends BaseController
             'nama' => $this->request->getPost('nama'),
             'harga' => $this->request->getPost('harga'),
             'jumlah' => $this->request->getPost('jumlah'),
+            'tanggal' => $this->request->getPost('tanggal'),
         ]);
 
         session()->setFlashdata('pesan', 'Minuman berhasil ditambahkan');

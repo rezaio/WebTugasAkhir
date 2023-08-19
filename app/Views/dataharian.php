@@ -49,6 +49,7 @@
                                                     <th>No</th>
                                                     <th>Nama</th>
                                                     <th>Nomor Telepon</th>
+                                                    <th>tanggal</th>
                                                     <th>Waktu</th>
                                                     <th>Kelas</th>
                                                     <th>Harga</th>
@@ -63,6 +64,7 @@
                                                     <td><?= $no++; ?></td>
                                                     <td><span class="name"> <?= $pengunjung['nama']; ?></span> </td>
                                                     <td> <span class="name"><?= $pengunjung['no_telp']; ?></span> </td>
+                                                    <td><span class="name"><?= $pengunjung['tanggal']; ?></span></td>
                                                     <td><span class="name"><?= $pengunjung['waktu']; ?></span></td>
                                                     <td><span class="name"><?= $pengunjung['kelas']; ?></span></td>
                                                     <td><span class="name"><?= $pengunjung['harga']; ?></span></td>

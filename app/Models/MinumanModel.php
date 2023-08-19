@@ -8,6 +8,6 @@ class MinumanModel extends Model
 {
     protected $table      = 'data_minuman';
     protected $primaryKey = 'id_minuman';
-    protected $allowedFields = ['nama', 'harga', 'jumlah'];
+    protected $allowedFields = ['nama', 'harga', 'jumlah', 'tanggal'];
 
 }

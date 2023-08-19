@@ -16,7 +16,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="text-left dib">
-                                                <div class="stat-text"><span class="count">100</span></div>
+                                                <div class="stat-text"><span class="count"><?= $registrasi; ?></span></div>
                                                 <div class="stat-heading">Registrasi Member</div>
                                              </div>
                                     </div>

@@ -105,8 +105,17 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
-                                                    <input name="harga" type="number" class="form-control" placeholder="Masukkan Harga" id="name">
-                                                  </div>
+                                                    <div class="form-group">
+                                                        <select name="harga" class="form-control" id="basicSelect">
+                                                            <option selected disabled>-- Pilih Kategori --</option>
+                                                            <option>250.000</option>
+                                                            <option>600.000</option> 
+                                                            <option>1.200.000</option> 
+                                                            <option>1.000.000</option> 
+                                                        </select>   
+        
+                                                    </div>
+                                                </div>
                                             </div>
                                              </div 
                                               class="col-md-2">

@@ -16,7 +16,7 @@
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="text-left dib">
-                                                <div class="stat-text"><span class="count">150</span></div>
+                                                <div class="stat-text"><span class="count"><?= $harian; ?></span></div>
                                                 <div class="stat-heading">Kelas Harian</div>
                                              </div>
                                     </div>
@@ -30,20 +30,21 @@
             <div class="row">
                <div class="col-3 mb-3">
                  <div class="form-group">
-                     <label for="name">Rekap Data Per Hari</label>
-                     <input type="date" class="form-control" id="name">
+                     <label for="tanggal">Rekap Data Per Hari</label>
+                     <input type="text" class="form-control" id="tanggal" name="tanggal">
                    </div>
-                   <a type="button" class="btn btn-success fa fa-print" href="#">
+                   <a type="submit" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelcontroller/export">
                        Excel</a>
-                    <a type="button" class="btn btn-danger fa fa-print" href="#">
-                        PDF</a>
-               </div>
+                    <!-- <a type="submit" class="btn btn-danger fa fa-print" href="#">
+                        PDF</a> -->
+                     </div>
+                </form>
                <div class="col-3 mb-3">
                    <div class="form-group">
-                       <label for="name">Rekap Data Per Minggu</label>
-                       <input type="date" class="form-control" id="name">
-                       <label for="name">Sampai</label>
-                       <input type="date" class="form-control" id="name">
+                       <label for="tanggal_awal">Rekap Data Per Minggu</label>
+                       <input type="date" class="form-control" id="name" name="tanggal_awal">
+                       <label for="tanggal_akhir">Sampai</label>
+                       <input type="date" class="form-control" id="name" name="tanggal_akhir">
                      </div>
                      <a type="week" class="btn btn-success fa fa-print" href="#">
                          Excel</a>
@@ -52,8 +53,8 @@
                  </div>
                  <div class="col-3 mb-3">
                    <div class="form-group">
-                       <label for="name">Rekap Data Per Bulan</label>
-                       <input type="month" class="form-control" id="name">
+                       <label for="bulan">Rekap Data Per Bulan</label>
+                       <input type="month" class="form-control" id="bulan" name="bulan">
                      </div>
                      <a type="button" class="btn btn-success fa fa-print" href="#">
                          Excel</a>

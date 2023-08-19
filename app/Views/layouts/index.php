@@ -118,6 +118,7 @@
 
                         <div class="user-menu dropdown-menu">
                             <a class="nav-link" href="<?= base_url(); ?>profil"><i class="fa fa- user"></i>My Profile</a>
+                            <a class="nav-link" href="<?= base_url(); ?>profil/add"><i class="fa fa- user"></i>Tambah User</a>
                             <a class="nav-link" href="<?= route_to('logout'); ?>"><i class="fa fa-power -off"></i>Logout</a>
                         </div>
                     </div>
@@ -397,7 +398,7 @@
              labels: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Aug", "Sep", "Oct", "Nov", "Dec", ],
              datasets: [
                  {
-                     label: "My First dataset",
+                     label: "Data registrasi",
                      data: wtf,
                      borderColor: "rgba(0, 194, 146, 0.9)",
                      borderWidth: "0",

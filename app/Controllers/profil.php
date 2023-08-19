@@ -14,6 +14,29 @@ class Profil extends BaseController
         
     }
 
+    public function add()
+    {
+        echo view('tambahprofil');
+
+    }
+
+    public function save()
+    {
+
+        $profil  = new UsersModel();
+        $profil->save([
+            'id_user' => $this->request->getPost('id_user'),
+            'username' => $this->request->getVar('username'),
+            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'email' => $this->request->getVar('email'),
+            'jabatan' => $this->request->getVar('jabatan'),
+
+        ]);
+
+        session()->setFlashdata('pesan', ' User berhasil ditambahkan');
+        return redirect()->to('profil');
+    }
+
     public function edit($id)
     {
         $profil = new UsersModel();

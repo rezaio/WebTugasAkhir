@@ -48,31 +48,36 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">Tambah Minuman</h5>
-                                        <a type="button" class="close" data-dismiss="modal" aria-label="Close" href="<?= base_url(); ?>minuman/add"></a>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close <?= base_url(); ?>minuman/add">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                         </div>
                                         <div class="modal-body">
                                             <form action="<?= base_url(); ?>minuman/save" method="POST">
                                                 <div class="form-group">
-                                                <label for="name">Nama Minuman</label>
-                                                <input name="nama" type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                                    <label for="name">Nama Minuman</label>
+                                                    <input name="nama" type="text" class="form-control" id="name" aria-describedby="emailHelp">
                                                 </div>
                                                 <div class="form-group">
-                                                <label for="name">Harga Minuman</label>
-                                                <input name="harga" type="number" class="form-control" id="name">
+                                                    <label for="name">Harga Minuman</label>
+                                                    <input name="harga" type="number" class="form-control" id="name">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="name">Jumlah Minuman</label>
                                                     <input name="jumlah" type="number" class="form-control" id="name">
                                                 </div>
+                                                <div class="form-group">
+                                                    <label for="name">Tanggal</label>
+                                                    <input name="tanggal" type="date" class="form-control" id="name">
+                                                </div>
+                                                <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                        <input type="submit" class="btn btn-primary"  value="Submit">
+                                        </div>
                                             </form>
                                         </div>
                         
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                        <input class="btn btn-primary" type="submit" value="Submit">
-                                        </div>
+                        
                                     </div>
                                     </div>
                                 </class>
@@ -84,6 +89,7 @@
                                                     <th>Nama</th>
                                                     <th>Harga</th>
                                                     <th>Jumlah</th>
+                                                    <th>Tanggal</th>
                                                     <th>Total</th>
                                                     <th>Aksi</th>
                                                 </tr>
@@ -96,6 +102,7 @@
                                                     <td> <?= $minumans['nama']; ?> </td>
                                                     <td>  <span class="name"><?= $minumans['harga']; ?></span> </td>
                                                     <td>  <span class="name"><?= $minumans['jumlah']; ?></span> </td>
+                                                    <td>  <span class="name"><?= $minumans['tanggal']; ?></span> </td>
                                                     <td>  <span class="name"> <?= $minumans['harga'] * $minumans['jumlah']; ?> </span> </td>
                                                    
                                                    

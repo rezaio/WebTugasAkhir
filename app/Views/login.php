@@ -140,11 +140,11 @@
                 <label for="">Password</label>
                 <input name="password" type="password" placeholder="Masukan Password">
                 <button type="submit">login</button></a>
-                <p>
+                <!-- <p>
                     <div class="register-link m-t-15 text-center">
                         <p>Belum Punya Akun ? <a href="<?= base_url(); ?>auth/register"> Daftar Disini</a></p>
                     </div>
-                </p>
+                </p> -->
             </form>
         </div>
         <div class="right">
