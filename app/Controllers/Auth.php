@@ -11,11 +11,11 @@ class Auth extends BaseController
         echo view('login');
     }
 
-    public function register()
-    {
-        helper(['form']);
-        echo view('register');
-    }
+    // public function register()
+    // {
+    //     helper(['form']);
+    //     echo view('register');
+    // }
 
     public function auth()
     {
@@ -36,11 +36,11 @@ class Auth extends BaseController
                 $session->set($ses_data);
                 return redirect()->to('/home');
             } else {
-                $session->setFlashdata('msg', 'Password Salah!');
+                $session->setFlashdata('password', 'Password Salah!');
                 return redirect()->to('/login');
             }
         } else {
-            $session->setFlashdata('msg', 'Username Tidak Ditemukan');
+            $session->setFlashdata('username', 'Username Tidak Ditemukan');
             return redirect()->to('/login');
         }
     }

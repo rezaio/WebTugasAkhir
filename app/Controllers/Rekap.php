@@ -37,7 +37,7 @@ class Rekap extends BaseController
         echo view('rekap/rekapkelasharian', $data);
     }
 
-    public function rekapkunjungan()
+    public function rekapmember()
     {
         $member = new MemberModel();
         $data = [
@@ -45,7 +45,7 @@ class Rekap extends BaseController
             'member' => $member->countAllResults(),
         ];
         // helper(['form']);
-        echo view('rekap/rekapkunjungan', $data);
+        echo view('rekap/rekapmember', $data);
     }
 
     public function rekapminuman()

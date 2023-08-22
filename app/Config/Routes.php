@@ -45,6 +45,8 @@ $routes->post('/login/auth', 'Auth::auth', ['as' => 'auth']);
 $routes->get('/logout', 'Auth::logout', ['as' => 'logout']);
 
 
+$routes->get('excelharian/exporthari', 'ExcelHarian::exporthari');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

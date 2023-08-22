@@ -29,33 +29,33 @@
         <div class="card-body p-3">
             <div class="row">
                <div class="col-3 mb-3">
+               <form method="get" action="<?= base_url(); ?>excelregistrasi/exporthari">
                  <div class="form-group">
-                     <label for="name">Rekap Data Per Hari</label>
-                     <input type="date" class="form-control" id="name">
+                     <label for="tgl_aktivasi">Rekap Data Per Hari</label>
+                     <input name="tgl_aktivasi" type="date" class="form-control" id="tgl_aktivasi">
                    </div>
-                   <a type="button" class="btn btn-success fa fa-print" href="#">
-                       Excel</a>
-                    <a type="button" class="btn btn-danger fa fa-print" href="#">
-                        PDF</a>
-               </div>
-               <div class="col-3 mb-3">
-                   <div class="form-group">
-                       <label for="name">Rekap Data Per Minggu</label>
-                       <input type="date" class="form-control" id="name">
-                       <label for="name">Sampai</label>
-                       <input type="date" class="form-control" id="name">
+                   <button type="submit" class="btn btn-success fa fa-print">Excel</button>
+                    <button type="submit" class="btn btn-danger fa fa-print" href="#">PDF</button>
                      </div>
-                     <a type="week" class="btn btn-success fa fa-print" href="#">
-                         Excel</a>
-                      <a type="button" class="btn btn-danger fa fa-print" href="#">
-                          PDF</a>
-                 </div>
+                </form>
+               <div class="col-3 mb-3">
+               <form method="get" action="<?= base_url(); ?>excelregistrasi/exportminggu">
+               <div class="form-group">
+                       <label for="tanggal_awal">Rekap Data Per Minggu</label>
+                       <input type="date" class="form-control" id="tanggal_awal" name="tanggal_awal">
+                       <label for="tanggal_akhir">Sampai</label>
+                       <input type="date" class="form-control" id="tanggal_akhir" name="tanggal_akhir">
+                     </div>
+                     <button type="submit" class="btn btn-success fa fa-print">Excel</button>
+                      <button type="submit" class="btn btn-danger fa fa-print" href="#">PDF</button>
+                    </div>
+                </form> 
                  <div class="col-3 mb-3">
                    <div class="form-group">
-                       <label for="name">Rekap Data Per Bulan</label>
-                       <input type="month" class="form-control" id="name">
+                       <label for="bulan">Rekap Data Per Bulan</label>
+                       <input type="month" class="form-control" id="bulan" name="bulan">
                      </div>
-                     <a type="button" class="btn btn-success fa fa-print" href="#">
+                     <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelregistrasi/exportbulan">
                          Excel</a>
                       <a type="button" class="btn btn-danger fa fa-print" href="#">
                           PDF</a>

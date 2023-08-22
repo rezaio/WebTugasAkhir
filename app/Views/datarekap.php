@@ -38,7 +38,7 @@
                                             </div>
                                             <div class="stat-text"><span class="count"><?= $member; ?></span></div>
                                             <div class="register-link m-t-15">
-                                                <a href="<?= base_url(); ?>rekap/rekapkunjungan">Kunjungan Member</a>
+                                                <a href="<?= base_url(); ?>rekap/rekapmember">Kunjungan Member</a>
                                         </div>
                                     </div>
                                 </div>

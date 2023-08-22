@@ -56,15 +56,15 @@
                                             <form action="<?= base_url(); ?>minuman/save" method="POST">
                                                 <div class="form-group">
                                                     <label for="name">Nama Minuman</label>
-                                                    <input name="nama" type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                                    <input name="nama" type="text" class="form-control" id="name" placeholder="Masukkan Nama minuman">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="name">Harga Minuman</label>
-                                                    <input name="harga" type="number" class="form-control" id="name">
+                                                    <input name="harga" type="number" class="form-control" id="name" placeholder="Masukkan Harga contoh: 5.000" >
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="name">Jumlah Minuman</label>
-                                                    <input name="jumlah" type="number" class="form-control" id="name">
+                                                    <input name="jumlah" type="number" class="form-control" id="name" placeholder="Masukkan Jumlah" >
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="name">Tanggal</label>
@@ -103,7 +103,7 @@
                                                     <td>  <span class="name"><?= $minumans['harga']; ?></span> </td>
                                                     <td>  <span class="name"><?= $minumans['jumlah']; ?></span> </td>
                                                     <td>  <span class="name"><?= $minumans['tanggal']; ?></span> </td>
-                                                    <td>  <span class="name"> <?= $minumans['harga'] * $minumans['jumlah']; ?> </span> </td>
+                                                    <td>  <span class="name"><?= number_format($minumans['harga'] * $minumans['jumlah'], 3, '.', ','); ?></span> </td>
                                                    
                                                    
                                                     <td>
@@ -132,6 +132,7 @@
                                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                                                             <button type="submit" class="btn btn-danger">Hapus</button>
                                                             </div>
+                                                            </form>
                                                         </div>
                                                         </div>
                                                     </div>

@@ -1,7 +1,6 @@
 <?= $this->extend('layouts/index'); ?>
 
 <?= $this->section('content'); ?>
-
         <!-- /#header -->
         <div class="breadcrumbs">
             <div class="breadcrumbs-inner">
@@ -10,14 +9,14 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-3">
+                                    <div class="stat-icon dib flat-color-2">
                                         <i class="pe-7s-users"></i>
                                     </div>
                                     <div class="stat-content">
                                         <div class="text-left dib">
                                             <div class="text-left dib">
-                                                <div class="stat-text"><span class="count"><?= $harian; ?></span></div>
-                                                <div class="stat-heading">Kelas Harian</div>
+                                                <div class="stat-text"><span class="count"><?= $member; ?></span></div>
+                                                <div class="stat-heading">Kunjungan Member</div>
                                              </div>
                                     </div>
                                 </div>
@@ -29,7 +28,7 @@
         <div class="card-body p-3">
             <div class="row">
                <div class="col-3 mb-3">
-               <form method="get" action="<?= base_url(); ?>excelharian/exporthari">
+               <form method="get" action="<?= base_url(); ?>excelmember/exporthari">
                  <div class="form-group">
                      <label for="tanggal">Rekap Data Per Hari</label>
                      <input name="tanggal" type="date" class="form-control" id="tanggal">
@@ -39,7 +38,7 @@
                      </div>
                 </form>
                <div class="col-3 mb-3">
-               <form method="get" action="<?= base_url(); ?>excelharian/exportminggu">
+               <form method="get" action="<?= base_url(); ?>excelmember/exportminggu">
                    <div class="form-group">
                        <label for="tanggal_awal">Rekap Data Per Minggu</label>
                        <input type="date" class="form-control" id="tanggal_awal" name="tanggal_awal">
@@ -54,10 +53,10 @@
                 </form> 
                  <div class="col-3 mb-3">
                    <div class="form-group">
-                       <label for="bulan">Rekap Data Per Bulan</label>
-                       <input type="month" class="form-control" id="bulan" name="bulan">
+                       <label for="name">Rekap Data Per Bulan</label>
+                       <input type="month" class="form-control" id="name">
                      </div>
-                     <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelharian/exportbulan">
+                     <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelmember/exportbulan">
                          Excel</a>
                       <a type="button" class="btn btn-danger fa fa-print" href="#">
                           PDF</a>
@@ -68,4 +67,5 @@
         <!-- /.content -->
         <div class="clearfix"></div>
         <!-- Footer -->
+        
         <?= $this->endSection(); ?> 
