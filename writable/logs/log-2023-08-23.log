@@ -1,0 +1,67 @@
+INFO - 2023-08-23 01:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 01:29:23 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Controllers\QrPdfController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-23 01:31:03 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Controllers\QrPdfController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-23 01:36:24 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Controllers\QrPdfController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-08-23 16:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-23 16:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-23 16:30:39 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Controllers\QrPdfController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-23 16:33:26 --> Undefined variable: qrCode
+in APPPATH\Views\qr_pdf.php on line 8.
+ 1 APPPATH\Views\qr_pdf.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: qrCode', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrPdfController.php(33): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-23 16:36:54 --> Undefined variable: qrCode
+in APPPATH\Views\qr_pdf.php on line 8.
+ 1 APPPATH\Views\qr_pdf.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: qrCode', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrPdfController.php(33): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-08-23 16:37:59 --> Undefined variable: qrCode
+in APPPATH\Views\qr_pdf.php on line 8.
+ 1 APPPATH\Views\qr_pdf.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: qrCode', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrPdfController.php(33): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrPdfController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrPdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')

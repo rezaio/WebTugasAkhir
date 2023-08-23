@@ -35,8 +35,8 @@
                      <input name="tanggal" type="date" class="form-control" id="tanggal">
                    </div>
                    <button type="submit" class="btn btn-success fa fa-print">Excel</button>
-                    <button type="submit" class="btn btn-danger fa fa-print" href="#">PDF</button>
-                     </div>
+                   <button type="submit" class="btn btn-danger fa fa-print" href="">PDF</button>
+                </div>
                 </form>
                <div class="col-3 mb-3">
                <form method="get" action="<?= base_url(); ?>excelharian/exportminggu">
@@ -59,7 +59,7 @@
                      </div>
                      <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelharian/exportbulan">
                          Excel</a>
-                      <a type="button" class="btn btn-danger fa fa-print" href="#">
+                      <a type="button" class="btn btn-danger fa fa-print" href="<?= base_url(); ?>pdfcontroller/rekapHarianBln">
                           PDF</a>
                     </div>
             </div>

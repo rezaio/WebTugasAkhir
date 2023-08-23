@@ -56,23 +56,27 @@
 
 <body lang=EN-US>
     <h1 align="center">Daftar Rekapan Harian Kelas Gym DE PERKASA</h1>
+    <p>Bulan: </p>
     <table width="100%" align="center">
         <thead>
             <tr class="h2">
                 <th>No</th>
                 <th>Nama</th>
                 <th>No Telp</th>
+                <th>Tanggal</th>
                 <th>Waktu</th>
                 <th>Harga</th>
             </tr>
         </thead>
         <tbody>
             <?php $i = 1;
+            
             foreach ($data as $harian) : ?>
                 <tr class="data">
                     <td class="number"><?= $i++; ?></td>
                     <td><?= $harian['nama']; ?></td>
                     <td><?= $harian['no_telp']; ?></td>
+                    <td><?= $harian['tanggal']; ?></td>
                     <td><?= $harian['waktu']; ?></td>
                     <td><?= $harian['harga']; ?></td>
 

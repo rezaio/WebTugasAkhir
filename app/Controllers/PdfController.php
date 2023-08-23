@@ -11,9 +11,28 @@ use Dompdf\Dompdf;
 
 class PdfController extends BaseController
 {
-    public function rekapHarian()
+    // rekap harian 
+    public function rekapHariantgl($tanggal)
     {
-        $filename = date('y-m-d-H-i-s') . '-rekapan harian';
+
+        $filename = date('y-m-d', strtotime($tanggal)) . '-rekapan-harian';
+        $dompdf = new Dompdf();
+        $harian = new HarianModel();
+
+        $data = [
+            'data' => $harian->where('tanggal', $tanggal)->findAll(),
+        ];
+
+        $dompdf->loadHtml(view('pdf/pdf_harian', array_merge($data, ['tanggal' => $tanggal])));
+        $dompdf->setPaper(array(0, 0, 609.4488, 935.433), 'portrait');
+        $dompdf->render();
+        $dompdf->stream($filename);
+        exit();
+    }
+
+    public function rekapHarianmingggu()
+    {
+        $filename = date('y-m-d') . '-rekapan harian';
         $dompdf = new Dompdf();
         $harian = new HarianModel();
 
@@ -28,6 +47,31 @@ class PdfController extends BaseController
         exit();
     }
 
+    public function rekapHarianBulan($selectedMonth)
+{
+    $filename = date('y-m') . '-rekapan-harian perbulan';
+    $dompdf = new Dompdf();
+    $harian = new HarianModel();
+
+    $data = [
+        'data' => $harian->where('MONTH(tanggal)', $selectedMonth)->findAll(),
+    ];
+
+    $dompdf->loadHtml(view('pdf/pdf_harian', $data));
+    $dompdf->setPaper(array(0, 0, 609.4488, 935.433), 'portrait');
+    $dompdf->render();
+    $dompdf->stream($filename);
+    exit();
+}
+
+public function rekapHarianBln()
+{
+    $selectedMonth = $this->request->getVar('tanggal');
+    $this->rekapHarianBulan($selectedMonth);
+}
+
+
+    // rekap minuman 
     public function rekapMinuman()
     {
         $filename = date('y-m-d-H-i-s') . '-rekapan minuman';
@@ -45,6 +89,8 @@ class PdfController extends BaseController
         exit();
     }
 
+
+    // rekap registrasi
     public function rekapRegistrasi()
     {
         $filename = date('y-m-d-H-i-s') . '-rekapan regitrasi';
@@ -62,6 +108,8 @@ class PdfController extends BaseController
         exit();
     }
 
+
+    // rekap member
     public function rekapMember()
     {
         $filename = date('y-m-d-H-i-s') . '-rekapan member';
