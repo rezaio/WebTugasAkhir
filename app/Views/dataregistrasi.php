@@ -83,7 +83,7 @@
                                                         <button type="button" class="mx-1 btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter<?= $regist['id_registrasi']; ?>">
                                                             Hapus
                                                         </button>
-                                                        <a type="submit" class="btn btn-success" href="<?= base_url(); ?>QrPdfController/index">cetak </a>
+                                                        <a type="submit" class="btn btn-success" href="<?= base_url(); ?>QrPdfController/index?nomember=<?= $regist['no_member']; ?>">cetak </a>
                                                         
                                                         
                                                         <!-- Modal -->

@@ -3,43 +3,63 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\MemberModel;
 use Dompdf\Dompdf;
 use Endroid\QrCode\QrCode;
 use App\Models\RegistrasiModel;
-
+use Endroid\QrCode\Color\Color;
+use Endroid\QrCode\Encoding\Encoding;
+use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelLow;
+use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
+use Endroid\QrCode\Writer\PngWriter;
 
 class QrPdfController extends BaseController
 {
     public function index()
     {
         // Ambil data dari model registrasi berdasarkan no_member
-        $noMember = '1003'; // Ganti dengan no_member yang sesuai
+        $noMember = $this->request->getVar('nomember'); // Ganti dengan no_member yang sesuai
         $registrasiModel = new RegistrasiModel();
         $registrasiData = $registrasiModel->getDataByNoMember($noMember);
         
         if ($registrasiData) {
-            // Buat objek QrCode dengan data dari model
-            $qrCode = new QrCode($registrasiData['no_member']); // Contoh: menggunakan email dari data registrasi
-            $qrCode->setSize(150);
-            
-            // Simpan gambar QR code sebagai file sementara
-            $qrImagePath = WRITEPATH . 'uploads/temp_qr.png';
-            $qrCode->getEncoding($qrImagePath);
-            
-            // Buat objek Dompdf
             $dompdf = new Dompdf();
+            // Buat objek QrCode dengan data dari model
+            $writer = new PngWriter();
+            $qrCode = QrCode::create($noMember)
+                ->setEncoding(new Encoding('UTF-8'))
+                ->setErrorCorrectionLevel(new ErrorCorrectionLevelLow())
+                ->setSize(300)
+                ->setMargin(10)
+                ->setRoundBlockSizeMode(new RoundBlockSizeModeMargin())
+                ->setForegroundColor(new Color(0, 0, 0))
+                ->setBackgroundColor(new Color(255, 255, 255));
+
+            $result = $writer->write($qrCode);
+            // return view('qr_pdf',);
 
             // Tambahkan konten ke PDF
-            $html = view('qr_pdf', ['qrImagePath' => $qrImagePath, 'registrasiData' => $registrasiData]);
+            $html = view('qr_pdf', ['data' => $result->getDataUri(), 'registrasiData' => $registrasiData]);
             $dompdf->loadHtml($html);
             $dompdf->setPaper('A4', 'portrait');
             $dompdf->render();
 
             // Tampilkan PDF di browser
-            $dompdf->stream('qr_code_pdf.pdf', ['Attachment' => false]);
+            $dompdf->stream('qr_code_member.pdf', ['Attachment' => false]);
         } else {
             // Handle jika data registrasi tidak ditemukan
             return "Data registrasi tidak ditemukan.";
         }
+    }
+    public function add() {
+        
+        $member  = new MemberModel();
+        $member->save([
+            'id_km' => $this->request->getPost('id_member'),
+            'nama' => $this->request->getPost('nama'),
+            'no_member' => $this->request->getPost('no_member'),
+            'tanggal' => $this->request->getPost('tanggal'),
+            'waktu' => $this->request->getPost('waktu'),
+        ]);
     }
 }

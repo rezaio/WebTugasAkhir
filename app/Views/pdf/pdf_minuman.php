@@ -4,58 +4,84 @@
     <meta http-equiv=Content-Type content="text/html; charset=utf-8">
     <style>
         body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
-        h1 {
-            font-size: 16pt;
-        }
 
-        table,
-        tr,
-        th,
-        td {
-            border: 1px solid #000;
-            border-collapse: collapse;
-        }
+.header img {
+    max-width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
-        .h1>th {
-            padding: 15px !important;
-        }
+.title {
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-        .h2>th {
-            padding: 10px !important;
-        }
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-x: auto;
+}
 
-        .h3>th {
-            padding: 5px !important;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
 
-        th {
-            font-size: 14px;
-            background-color: #D9D9D9;
-        }
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
 
-        td {
-            font-size: 12px;
-            padding: 5px;
-        }
+thead {
+    background-color: #f2f2f2;
+    color: #333;
+}
 
-        .number {
-            text-align: center;
-            width: 20px;
-        }
+th {
+    font-weight: bold;
+}
 
-        .data>td:nth-child(2) {
-            width: 200px;
-        }
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
+
     </style>
 </head>
 
 <body lang=EN-US>
-    <h1 align="center">Daftar Rekapan Minuman Kelas Gym DE PERKASA</h1>
+    <img src="<?= base_url(); ?>images/logo3.png" alt="Logo">
+    <div class="header">
+        <center><h1 class="title">Daftar Rekapan Minuman <br>Gym DE PERKASA</h1></center>
+    </div>
+    <hr>
+    <p><?php
+if (isset($selectedMonth)) {
+    $namaBulan = date('F', strtotime($selectedMonth . '-01'));
+    echo "Bulan yang dipilih: " . $namaBulan;
+}
+?></p>
     <table width="100%" align="center">
         <thead>
             <tr class="h2">
@@ -74,7 +100,7 @@
                     <td><?= $minuman['nama']; ?></td>
                     <td><?= $minuman['harga']; ?></td>
                     <td><?= $minuman['jumlah']; ?></td>
-                    <td><?= $minuman['harga'] * $minuman['jumlah']; ?></td>
+                    <td><?= number_format($minuman['harga'] * $minuman['jumlah'], 3, '.', ','); ?></td>
 
                 </tr>
             <?php endforeach; ?>

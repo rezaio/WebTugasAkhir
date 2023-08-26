@@ -11,6 +11,10 @@ class ExcelRegistrasi extends BaseController
 {
     public function exporthari()
     {
+        if (isset($_GET['pdf']) =='pdf'){
+            return redirect()->to('pdfcontroller/rekapRegistrasitgl?tgl_aktivasi='.$this->request->getGet('tgl_aktivasi'));
+        }; 
+
         $tanggal = $this->request->getGet('tgl_aktivasi'); 
 
         $registrasiModel = new RegistrasiModel();
@@ -201,6 +205,10 @@ class ExcelRegistrasi extends BaseController
 
     public function exportbulan()
     {
+        if (isset($_GET['pdf']) =='pdf'){
+            return redirect()->to('pdfcontroller/rekapRegistrasibln?tgl_aktivasi='.$this->request->getGet('bulan'));
+        };  
+
         $registrasiModel = new RegistrasiModel();
         $registrasi = $registrasiModel->findAll();
 

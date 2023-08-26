@@ -56,6 +56,12 @@
 
 <body lang=EN-US>
     <h1 align="center">Daftar Rekapan Registrasi Kelas Gym DE PERKASA</h1>
+    <p><?php
+if (isset($selectedMonth)) {
+    $namaBulan = date('F', strtotime($selectedMonth . '-01'));
+    echo "Bulan yang dipilih: " . $namaBulan;
+}
+?></p>
     <table width="100%" align="center">
         <thead>
             <tr class="h2">

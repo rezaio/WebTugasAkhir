@@ -417,5 +417,29 @@
          }
      } );
 </script>
+<script>
+// Fungsi untuk menampilkan alert dengan angka
+function showAlert(number) {
+  alert("Anda mengetikkan angka: " + number + " dan menekan tombol panah bawah!");
+}
+
+let inputNumber = ""; // Untuk menyimpan angka yang dimasukkan oleh pengguna
+
+// Menambahkan event listener untuk mendeteksi input di seluruh dokumen
+document.addEventListener("keydown", function(event) {
+  const keyPressed = event.key;
+  const keyCode = event.keyCode || event.which; // Mendapatkan kode tombol
+
+  // Memeriksa apakah yang ditekan adalah angka
+  if (!isNaN(keyPressed)) {
+    inputNumber += keyPressed; // Menyimpan angka yang dimasukkan
+  } else if (keyCode === 13 && inputNumber !== "") {
+    showAlert(inputNumber); // Menampilkan alert dengan angka yang dimasukkan
+    inputNumber = ""; // Mengosongkan inputNumber setelah ditampilkan dalam alert
+  } else {
+    inputNumber = ""; // Mengosongkan inputNumber jika tidak ada angka yang dimasukkan
+  }
+});
+</script>
 </body>
 </html>

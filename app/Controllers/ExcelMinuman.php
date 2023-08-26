@@ -12,6 +12,10 @@ class ExcelMinuman extends BaseController
 
 public function exporthari()
     {
+        if (isset($_GET['pdf']) =='pdf'){
+            return redirect()->to('pdfcontroller/rekapMinumantgl?tanggal='.$this->request->getGet('tanggal'));
+        }; 
+
         $tanggal = $this->request->getGet('tanggal'); 
 
         
@@ -156,6 +160,10 @@ public function exporthari()
 
     public function exportbulan()
     {
+        if (isset($_GET['pdf']) =='pdf'){
+            return redirect()->to('pdfcontroller/rekapMinumanBln?tanggal='.$this->request->getGet('bulan'));
+        };
+
         $minumanModel = new MinumanModel();
         $minuman = $minumanModel->findAll();
 

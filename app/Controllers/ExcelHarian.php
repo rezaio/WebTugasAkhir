@@ -4,13 +4,18 @@ namespace App\Controllers;
 
 use App\Models\HarianModel;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Pdf;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 
 class ExcelHarian extends BaseController
 {
     public function exporthari()
-    {
+    { 
+        if (isset($_GET['pdf']) =='pdf'){
+            return redirect()->to('pdfcontroller/rekapHariantgl?tanggal='.$this->request->getGet('tanggal'));
+        }; 
+
         $tanggal = $this->request->getGet('tanggal'); // Ambil tanggal dari input
 
         
@@ -87,14 +92,25 @@ class ExcelHarian extends BaseController
 
 public function exportminggu(){
         
-        
-        $tanggala = $this->request->getGet('tanggal_awal'); 
-        $tanggalb = $this->request->getGet('tanggal_akhir');
-
-        $harianModel = new HarianModel();
+        // if (isset($_GET['pdf']) =='pdf'){
+        // return redirect()->to('pdfcontroller/rekapHarianminggu?tanggal='.$this->request->getGet('tanggal'));
+        // };
+    // dd($this->request->getGet('tanggal_awal'));
+    
+    
+    $tanggala = $this->request->getGet('tanggal_awal'); 
+    $tanggalb = $this->request->getGet('tanggal_akhir');
+    
+    if ($this->request->getGet('pdf') == 'pdf') {
+        // Redirect to the PDF generation route with start and end dates as parameters
+        return redirect()->to("pdfcontroller/rekapHarianminggu?tanggal_awal=.$tanggala&tanggal_akhir=$tanggalb");
+    }
+    // Check if the 'pdf' parameter is present in the URL
+    $harianModel = new HarianModel();
         $harian = $harianModel->where('tanggal >=', $tanggala)
                             ->where('tanggal <=', $tanggalb)
                           ->findAll();
+
         
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
@@ -162,6 +178,12 @@ public function exportminggu(){
 
 }
 public function exportbulan(){
+
+    // dd($this->request->getGet('bulan'));
+
+    if (isset($_GET['pdf']) =='pdf'){
+        return redirect()->to('pdfcontroller/rekapHarianBln?tanggal='.$this->request->getGet('bulan'));
+    };
 
     $harianModel = new HarianModel();
     $harian = $harianModel->findAll();

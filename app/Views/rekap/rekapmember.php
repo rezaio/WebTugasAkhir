@@ -34,7 +34,7 @@
                      <input name="tanggal" type="date" class="form-control" id="tanggal">
                    </div>
                    <button type="submit" class="btn btn-success fa fa-print">Excel</button>
-                    <button type="submit" class="btn btn-danger fa fa-print" href="#">PDF</button>
+                    <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">PDF</button>
                      </div>
                 </form>
                <div class="col-3 mb-3">
@@ -47,20 +47,22 @@
                      </div>
                      <button type="submit" class="btn btn-success fa fa-print">
                          Excel</button>
-                    <button type="submit" class="btn btn-danger fa fa-print" href="#">
+                    <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">
                           PDF</button>
                     </div>
                 </form> 
                  <div class="col-3 mb-3">
+                 <form method="get" action="<?= base_url(); ?>excelmember/exportbulan">
                    <div class="form-group">
-                       <label for="name">Rekap Data Per Bulan</label>
-                       <input type="month" class="form-control" id="name">
+                       <label for="bulan">Rekap Data Per Bulan</label>
+                       <input type="month" class="form-control" id="bulan" name="bulan">
                      </div>
-                     <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>excelmember/exportbulan">
-                         Excel</a>
-                      <a type="button" class="btn btn-danger fa fa-print" href="#">
-                          PDF</a>
+                     <button type="submit" class="btn btn-success fa fa-print">
+                         Excel</button>
+                      <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">
+                          PDF</button>
                     </div>
+                </form>
             </div>
        </div>
     </div>  

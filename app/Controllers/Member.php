@@ -12,7 +12,7 @@ class Member extends BaseController
         $member = new MemberModel();
         $data = [
             
-            'member' => $member->findAll(),
+            'member' => $member->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi')->findAll(),
             
         ];
         echo view('datamember', $data);
@@ -26,14 +26,17 @@ class Member extends BaseController
 
     public function save()
     {
+       
+        $data =  $this->request->getVar('nomor');
+
 
         $member  = new MemberModel();
+        $isi = $member->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi')->where('no_member', $data)->first();
+
         $member->save([
-            'id_km' => $this->request->getPost('id_member'),
-            'nama' => $this->request->getPost('nama'),
-            'no_member' => $this->request->getPost('no_member'),
-            'tanggal' => $this->request->getPost('tanggal'),
-            'waktu' => $this->request->getPost('waktu'),
+            'id_registrasi' => $isi['id_registrasi'],
+            'tanggal' => date("Y-m-d"),
+            'waktu' => date("H:i:s"),
         ]);
 
         session()->setFlashdata('pesan', 'member berhasil ditambahkan');
@@ -43,7 +46,7 @@ class Member extends BaseController
     public function delete()
     {
         $member = new MemberModel();
-        $member->delete($this->request->getPost('id_member'));
+        $member->delete($this->request->getPost('id_km'));
         session()->setFlashdata('pesan', 'Pengunjung member berhasil dihapus');
         return redirect()->to('member');
     }

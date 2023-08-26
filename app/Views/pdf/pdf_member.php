@@ -55,7 +55,7 @@
 </head>
 
 <body lang=EN-US>
-    <h1 align="center">Daftar Rekapan Harian Kelas Gym DE PERKASA</h1>
+    <h1 align="center">Daftar Rekapan member Gym DE PERKASA</h1>
     <p><?php
 if (isset($selectedMonth)) {
     $namaBulan = date('F', strtotime($selectedMonth . '-01'));
@@ -68,23 +68,21 @@ if (isset($selectedMonth)) {
             <tr class="h2">
                 <th>No</th>
                 <th>Nama</th>
-                <th>No Telp</th>
+                <th>No Member</th>
                 <th>Tanggal</th>
                 <th>Waktu</th>
-                <th>Harga</th>
             </tr>
         </thead>
         <tbody>
             <?php $i = 1;
             
-            foreach ($data as $harian) : ?>
+            foreach ($data as $member) : ?>
                 <tr class="data">
                     <td class="number"><?= $i++; ?></td>
-                    <td><?= $harian['nama']; ?></td>
-                    <td><?= $harian['no_telp']; ?></td>
-                    <td><?= $harian['tanggal']; ?></td>
-                    <td><?= $harian['waktu']; ?></td>
-                    <td><?= $harian['harga']; ?></td>
+                    <td><?= $member['nama']; ?></td>
+                    <td><?= $member['no_member']; ?></td>
+                    <td><?= $member['tanggal']; ?></td>
+                    <td><?= $member['waktu']; ?></td>
 
                 </tr>
             <?php endforeach; ?>
