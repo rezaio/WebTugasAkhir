@@ -21,13 +21,13 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Nama</label>
-                                                    <input name="nama" type="text" class="form-control" placeholder="Masukkan Nama" id="name">
+                                                    <input name="nama" type="text" class="form-control" placeholder="Masukkan Nama" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Alamat</label>
-                                                    <input name="alamat" type="text" class="form-control" placeholder="Masukkan Alamat" id="name">
+                                                    <input name="alamat" type="text" class="form-control" placeholder="Masukkan Alamat" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -39,13 +39,13 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Lahir</label>
-                                                    <input name="tanggal_lahir" type="date" class="form-control" placeholder="Masukkan tanggal lahir" id="name">
+                                                    <input name="tanggal_lahir" type="date" class="form-control" placeholder="Masukkan tanggal lahir" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Usia</label>
-                                                    <input name="usia" type="text" class="form-control" placeholder="Masukkan Usia" id="name">
+                                                    <input name="usia" type="text" class="form-control" placeholder="Masukkan Usia" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -65,7 +65,7 @@
                                                 <div class="form-group">
                                                     <label for="name">Tipe Member</label>
                                                     <div class="form-group">
-                                                        <select name="tipe_member" class="form-control" id="basicSelect">
+                                                        <select name="tipe_member" class="form-control" id="basicSelect" required>
                                                             <option selected disabled>-- Pilih Kategori --</option>
                                                             <option value="1bulan">1 Bulan</option>
                                                             <option value="3bulan">3 Bulan</option> 
@@ -80,19 +80,19 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Nomor Member</label>
-                                                    <input name="no_member" type="text" class="form-control" placeholder="Masukkan Nomor Member" id="name">
+                                                    <input name="no_member" type="text" class="form-control" placeholder="Masukkan Nomor Member" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Aktivasi</label>
-                                                    <input name="tgl_aktivasi" type="date" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
+                                                    <input name="tgl_aktivasi" type="date" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Berakhir</label>
-                                                    <input name="tgl_berakhir" type="date" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
+                                                    <input name="tgl_berakhir" type="date" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -106,7 +106,7 @@
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
                                                     <div class="form-group">
-                                                        <select name="harga" class="form-control" id="basicSelect">
+                                                        <select name="harga" class="form-control" id="basicSelect" required>
                                                             <option selected disabled>-- Pilih Kategori --</option>
                                                             <option>250.000</option>
                                                             <option>600.000</option> 
@@ -117,14 +117,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                             </div 
-                                              class="col-md-2">
-                                    <input class=" col-lg-2 top-left btn btn-primary" type="submit" value="Submit">
+                                        </div class="col-md-2">
+                                    <input class=" col-lg-2 top-left btn btn-primary" type="submit" value="Tambah">
                                 </div>
+                                </form>
                             </div> 
                         </div> 
                     </div>
                 </div>
+            </div>
+
                 <!-- /.orders -->
         <!-- /.content -->
         <?= $this->endSection(); ?>  

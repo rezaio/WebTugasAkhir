@@ -3,34 +3,15 @@
 <?= $this->section('content'); ?>
         <!-- Content -->
         <div class="content">
-            <!-- Animated -->
             <div class="animated fadeIn">
-                <!-- Widgets  -->
-               
-                <!-- /Widgets -->
-                <!--  Traffic  -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                           
-                            <div class="row">
-                               
-                               
-                                </div>
-                            </div> <!-- /.row -->
-                            <div class="card-body"></div>
-                        </div>
-                    </div><!-- /# column -->
-                </div>
-                <!--  /Traffic -->
-                <div class="clearfix"></div>
+                    
                 <!-- Orders -->
                 <div class="orders">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="card">
                                 <div class="card-body d-flex justify-content-between">
-                                    <h4 class="box-title">Form Edit Member Harian </h4>
+                                    <h4 class="box-title">Form Edit Kelas Harian </h4>
                                     
                                     <!-- Button trigger modal -->
   
@@ -78,12 +59,10 @@
                                                             <option <?php if($harian['kelas'] == "kick boxing") { echo 'selected';} ?> value="kick boxing" >Kick Boxing</option> 
                                                             <option <?php if($harian['kelas'] == "yoga") { echo 'selected';} ?> value="yoga" >Yoga</option>  
                                                         </select>   
-        
-                                                    </div>
+       
+                                                   </div>
                                                 </div>
-                                            </div>
-
-                                        
+                                            </div>                                     
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
@@ -94,18 +73,14 @@
                                                             <option>30.000</option> 
                                                             <option>35.000</option> 
                                                                                                                                     
-                                                        </select>   
-        
+                                                        </select>       
                                                     </div>
                                                 </div>
-                                            </div>
-
-                                            
-                                                  
+                                            </div>       
                                         </div class="col-md-2">
                                             
                                         <input type="number" value="<?= $harian['id_kh']; ?>" name="id_kh" hidden>
-                                        <input class="btn btn-primary" type="submit" value="Submit">
+                                        <input class="btn btn-primary" type="submit" value="Edit">
                                         </div>
                                     </form>
 
@@ -122,10 +97,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> <!-- /.col-md-4 -->
+                        </div> 
                     </div>
                 </div>
-                <!-- /.orders -->
-                <!-- To Do and Live Chat -->
-        <!-- /.content -->
+ 
         <?= $this->endSection(); ?>

@@ -24,31 +24,31 @@
                                     <form action="<?= base_url(); ?>profil/save" method="POST">
                                         <div class="form-group">
                                             <label for="name">Username</label>
-                                            <input name="username" type="text" class="form-control" placeholder="Masukkan Username" id="name">
+                                            <input name="username" type="text" class="form-control" placeholder="Masukkan Username" id="name" required>
                                           </div>
                                       </div>
                                     <div class="col-6 mb-3">
                                         <div class="form-group">
                                             <label for="name">Email</label>
-                                            <input name="email" type="email" class="form-control" placeholder="Masukkan Email" id="name">
+                                            <input name="email" type="email" class="form-control" placeholder="Masukkan Email" id="name" required>
                                           </div>
                                       </div>
                                     <div class="col-6 mb-3">
                                         <div class="form-group">
                                             <label for="name">Password</label>
-                                            <input name="password" type="text" class="form-control" placeholder="Masukkan Password" id="name">
+                                            <input name="password" type="text" class="form-control" placeholder="Masukkan Password" id="name" required>
                                           </div>
                                     </div>
                                     <div class="col-6 mb-3">
                                         <div class="form-group">
                                             <label for="name">Jabatan</label>
-                                            <input name="jabatan" type="text" class="form-control" placeholder="Masukkan Jabatan" id="name">
+                                            <input name="jabatan" type="text" class="form-control" placeholder="Masukkan Jabatan" id="name" required>
                                           </div>
                                       </div>
                                     </div>
 
                                     <!-- Button trigger modal -->
-                                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" required>
                                         Tambah </button>
                                   </div>   
                                 </form>           

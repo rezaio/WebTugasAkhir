@@ -35,7 +35,7 @@
                      <input name="tgl_aktivasi" type="date" class="form-control" id="tgl_aktivasi">
                    </div>
                    <button type="submit" class="btn btn-success fa fa-print">Excel</button>
-                    <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">PDF</button>
+                    <!-- <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">PDF</button> -->
                      </div>
                 </form>
                <div class="col-3 mb-3">
@@ -47,7 +47,7 @@
                        <input type="date" class="form-control" id="tanggal_akhir" name="tanggal_akhir">
                      </div>
                      <button type="submit" class="btn btn-success fa fa-print">Excel</button>
-                      <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">PDF</button>
+                      <!-- <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">PDF</button> -->
                     </div>
                 </form> 
                  <div class="col-3 mb-3">
@@ -59,8 +59,8 @@
                      </div>
                      <button type="submit" class="btn btn-success fa fa-print">
                          Excel</button>
-                      <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">
-                          PDF</button>
+                      <!-- <button type="submit" name="pdf" value="pdf" class="btn btn-danger fa fa-print">
+                          PDF</button> -->
                     </div>
                 </form>
             </div>

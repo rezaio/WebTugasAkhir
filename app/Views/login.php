@@ -136,9 +136,9 @@
                 <hr>
                 <p>DE PERKASA FITNESS CENTER</p>
                 <label for="">Username</label>
-                <input name="username" type="text" placeholder="Masukan username">
+                <input name="username" type="text" placeholder="Masukan username" required>
                 <label for="">Password</label>
-                <input name="password" type="password" placeholder="Masukan Password">
+                <input name="password" type="password" placeholder="Masukan Password" required>
                 <button type="submit">login</button></a>
                 <!-- <p>
                     <div class="register-link m-t-15 text-center">

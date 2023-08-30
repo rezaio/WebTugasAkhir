@@ -398,7 +398,7 @@
              labels: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Aug", "Sep", "Oct", "Nov", "Dec", ],
              datasets: [
                  {
-                     label: "Data registrasi",
+                     label: "Grafik registrasi",
                      data: wtf,
                      borderColor: "rgba(0, 194, 146, 0.9)",
                      borderWidth: "0",

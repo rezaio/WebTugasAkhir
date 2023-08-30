@@ -12,11 +12,9 @@
                         <div class="col-xl-12">
                             <div class="card">
                                 <div class="card-body d-flex justify-content-between">
-                                    <h4 class="box-title">Form Registrasi Member Harian </h4>
+                                    <h4 class="box-title">Formulir Kelas Harian </h4>
                                     
                                     <!-- Button trigger modal -->
-  
- 
                                 </div>
                                 <div class="card-body">
                                     <form action="<?= base_url(); ?>harian/save" method="POST">
@@ -24,25 +22,25 @@
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Nama</label>
-                                                    <input name="nama" type="text" class="form-control" placeholder="Masukkan Nama" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    <input name="nama" type="text" class="form-control" placeholder="Masukkan Nama" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Nomor Telepon</label>
-                                                    <input name="no_telp" type="text" class="form-control" placeholder="Masukkan Nomor Telepon" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    <input name="no_telp" type="text" class="form-control" placeholder="Masukkan Nomor Telepon" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal</label>
-                                                    <input name="tanggal" type="date" class="form-control" id="name">
+                                                    <input name="tanggal" type="date" class="form-control" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-8">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Waktu</label>
-                                                    <input name="waktu" type="time" class="form-control" placeholder="Masukkan Waktu" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    <input name="waktu" type="time" class="form-control" placeholder="Masukkan Waktu" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                                                   </div>
                                             </div>
 
@@ -51,7 +49,7 @@
                                                     <label for="name">Kelas</label>
                                                     <div class="form-group">
         
-                                                        <select name="kelas" class="form-control" id="basicSelect">
+                                                        <select name="kelas" class="form-control" id="basicSelect" required>
                                                             <option selected disabled>-- Pilih Kategori --</option>
                                                             <option>GYM</option>
                                                             <option>Zumba</option> 
@@ -71,7 +69,7 @@
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
                                                     <div class="form-group">
-                                                        <select name="harga" class="form-control" id="basicSelect">
+                                                        <select name="harga" class="form-control" id="basicSelect" required>
                                                             <option selected disabled>-- Pilih Kategori --</option>
                                                             <option>25.000</option>
                                                             <option>30.000</option> 
@@ -85,16 +83,14 @@
                                                  
                                         </div class="col-md-2">
 
-                                        <input class="btn btn-primary" type="submit" value="Submit">
+                                        <input class="btn btn-primary" type="submit" value="Tambah">
                                         </div>
                                     </form>
                                 </div>
                             </div> <!-- /.card -->
                         </div>  <!-- /.col-lg-8 -->
-
-                      
-                        </div> <!-- /.col-md-4 -->
-                    </div>
+                    </div> <!-- /.col-md-4 -->
+                </div>
                 
                 <!-- /.orders -->
                 <!-- To Do and Live Chat -->
