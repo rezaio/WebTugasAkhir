@@ -20,8 +20,7 @@
                             
                               <div class="col-md-4 gradient-custom text-center text-white"
                                 style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
-                                <img src="<?= base_url(); ?>images/admin.jpeg"
-                                  alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                                <img src="<?= base_url(); ?>images/admin.jpeg" alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
                                 <h5><?= $username; ?></h5>
                                 <p><?= $jabatan; ?></p>
                                 <a class="far fa fa-edit mb-5 nav-link" href="<?= base_url(); ?>profil/edit/<?= $id_user; ?>"></a>
@@ -46,6 +45,10 @@
                                       <div class="col-6 mb-3">
                                         <h6>Jabatan</h6>
                                         <p class="text-muted"><?= $jabatan; ?></p>
+                                      </div>
+                                      <div class="col-6 mb-3">
+                                        <h6>Role</h6>
+                                        <p class="text-muted"><?= $role; ?></p>
                                       </div>
                                     </div>
                                   </div>

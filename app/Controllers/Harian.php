@@ -20,6 +20,7 @@ class Harian extends BaseController
         echo view('dataharian', $data);
     }
 
+
     public function add()
     {
         echo view('tambahharian');

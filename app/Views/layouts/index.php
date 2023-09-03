@@ -395,10 +395,10 @@
      var myChart = new Chart( ctx, {
          type: 'bar',
          data: {
-             labels: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Aug", "Sep", "Oct", "Nov", "Dec", ],
+             labels: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", ],
              datasets: [
                  {
-                     label: "Grafik registrasi",
+                     label: "Grafik data registrasi",
                      data: wtf,
                      borderColor: "rgba(0, 194, 146, 0.9)",
                      borderWidth: "0",

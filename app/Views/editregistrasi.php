@@ -108,7 +108,6 @@
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>
                                                     <div class="form-group">
-                                                        <option selected disabled>-- Pilih Kategori --</option>
                                                         <select name="harga" value="<?= $registrasi['harga']; ?>" class="form-control" id="basicSelect">
                                                             <option>250.000</option>
                                                             <option>600.000</option> 

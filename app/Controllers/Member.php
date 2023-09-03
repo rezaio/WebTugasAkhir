@@ -18,6 +18,7 @@ class Member extends BaseController
         echo view('datamember', $data);
     }
 
+
     public function add()
     {
         echo view('datamember');

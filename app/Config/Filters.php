@@ -22,6 +22,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'Auth'          =>\App\Filters\Auth::class,
+
     ];
 
     /**
@@ -30,17 +31,27 @@ class Filters extends BaseConfig
      */
     public array $globals = [
         'before' => [
-        //    'Auth' => ['except' => [
-        //     'auth', 'auth/*',
+        //     'Auth' => ['except' => [
+        //      'auth', 'auth/*',
         //     '/'
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',  
+        //    ]],
+        //    'AuthUser' => ['except' => [
+        //     'auth', 'auth/*',
+        //      '/'
+        //     ]],
+        //     // 'honeypot',
+        //     // 'csrf',
+        //     // 'invalidchars',  
            ],
         'after' => [
             // 'Auth' => ['except' => [
-            //     'home', 'home/*',
-                
+         
+            
+            //    ]],
+            
+            //  'AuthUser' => ['except' => [
+               
+            //  ]],  
             'toolbar',
             // 'honeypot',
             // 'secureheaders',

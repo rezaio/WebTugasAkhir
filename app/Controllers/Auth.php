@@ -11,12 +11,6 @@ class Auth extends BaseController
         echo view('login');
     }
 
-    // public function register()
-    // {
-    //     helper(['form']);
-    //     echo view('register');
-    // }
-
     public function auth()
     {
         $session  = session();
@@ -31,16 +25,23 @@ class Auth extends BaseController
                 $ses_data = [
                     'id_user'   => $data['id_user'],
                     'username'  => $data['username'],
+                    'role'      => $data['role'],
                     'logged_in' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/home');
+            
+            if ($data['role'] == 'user') {
+                return redirect()->to('/user'); // Arahkan ke /user jika role adalah 'user'.
             } else {
-                $session->setFlashdata('password', 'Password Salah!');
+                return redirect()->to('/home'); // Arahkan ke /home untuk peran lainnya.
+            }
+            
+            } else {
+                $session->setFlashdata('msg', 'Password Salah!');
                 return redirect()->to('/login');
             }
         } else {
-            $session->setFlashdata('username', 'Username Tidak Ditemukan');
+            $session->setFlashdata('msg', 'Username Tidak Ditemukan');
             return redirect()->to('/login');
         }
     }
@@ -53,6 +54,7 @@ class Auth extends BaseController
             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'email' => $this->request->getVar('email'),
             'jabatan' => $this->request->getVar('jabatan'),
+            'role' => $this->request->getVar('role'),
         ]);
 
         session()->setFlashdata('pesan', 'User berhasil ditambahkan');

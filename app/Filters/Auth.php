@@ -13,16 +13,10 @@ class Auth implements FilterInterface
         if (!session()->get('logged_in')) {
             return redirect()->to('/login');
         }
-
         if (!empty($arguments[0])) {
-
-            if (!in_array($_SESSION['id_user'], $arguments)) {
-                return redirect()->to('/');
+            if ($_SESSION['role'] !== $arguments[0]) {
+                return redirect()->to('home');
             }
-
-            // if ($_SESSION['role'] !== $arguments[0]) {
-            //     return redirect()->to('/');
-            // }
         }
     }
 

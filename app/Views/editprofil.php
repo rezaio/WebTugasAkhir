@@ -50,10 +50,14 @@
                                     <div class="col-6 mb-3">
                                         <div class="form-group">
                                             <label for="name">Jabatan</label>
-                                            <input name="jabatan" value="<?= $profil['jabatan']; ?>" type="text" class="form-control" placeholder="Masukkan Jabatan" id="name">
-                                          </div>
+                                                <div class="form-group">
+                                                  <select name="jabatan" value="<?= $profil['email']; ?>" class="form-control" id="basicSelect">
+                                                        <option>Resepsionis</option>
+                                                        <option>Manager</option> 
+                                                    </select>   
+                                                </div>
+                                            </div> 
                                       </div>
-                                    </div>
                                     
                                     <input class=" col-lg-2 top-left btn btn-primary" type="submit" value="Submit">
                                   </div>

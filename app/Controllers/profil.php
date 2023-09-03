@@ -14,9 +14,10 @@ class Profil extends BaseController
         
     }
 
+
     public function add()
     {
-        echo view('tambahprofil');
+        echo view('tambahuser');
 
     }
 
@@ -30,7 +31,7 @@ class Profil extends BaseController
             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'email' => $this->request->getVar('email'),
             'jabatan' => $this->request->getVar('jabatan'),
-
+            'role' => $this->request->getPost('role')
         ]);
 
         session()->setFlashdata('pesan', ' User berhasil ditambahkan');
@@ -58,8 +59,6 @@ class Profil extends BaseController
             'password' => empty($this->request->getVar('password')) ? $data['password'] : password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'email' => $this->request->getVar('email') ? $this->request->getVar('email') : $data['email'],
             'jabatan' => $this->request->getVar('jabatan') ? $this->request->getVar('jabatan') : $data['jabatan'],
-
-            
 
         ]);
 

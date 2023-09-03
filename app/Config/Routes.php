@@ -13,6 +13,8 @@ $routes = Services::routes();
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
+$routes->setAutoRoute(true);
+
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
@@ -31,15 +33,23 @@ $routes->setAutoRoute(MYSQLI_DATA_TRUNCATED);
 // route since we don't have to scan directories.
 $routes->get('/', 'Auth::index');
 
+$routes->get('rekap/index', 'Rekap::index');
+
+
 //export
 $routes->get('harian/export', 'Harian::export');
 $routes->get('minuman/export', 'Minuman::export');
 
 
-$routes->get('rekap/index', 'Rekap::index');
+$routes->get('/admin/home', 'Home::index', ['as' => 'home', 'filter' => 'auth:admin']);
+$routes->get('/user/user', 'User::index', ['as' => 'home', 'filter' => 'auth:user']);
+// $routes->get('/admin', 'Admin::index', ['as' => 'home', 'filter' => 'auth']);
+
+// $routes->get('/admin/home', 'Home::index', ['as' => 'home-index', 'filter' => 'auth:admin']);
+// $routes->get('/user/home', 'User::index', ['as' => 'user-home', 'filter' => 'auth:user']);
 
 
-//login 
+// Authentication Section
 $routes->get('/login', 'Auth::index', ['as' => 'login']);
 $routes->post('/login/auth', 'Auth::auth', ['as' => 'auth']);
 $routes->get('/logout', 'Auth::logout', ['as' => 'logout']);

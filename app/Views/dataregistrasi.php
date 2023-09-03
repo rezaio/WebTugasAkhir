@@ -77,6 +77,7 @@
                                                     <td><span class="name"><?= $regist['pelatih']; ?></span></td>
                                                     <td><span class="name"><?= $regist['harga']; ?></span></td>
 
+                                                
                                                     <td class="d-inline-flex">
                                                         <a type="button" class="btn btn-warning" href="<?= base_url(); ?>registrasi/edit/<?= $regist['id_registrasi']; ?>">Edit </a>
                                                        <!-- Button trigger modal -->
@@ -84,6 +85,7 @@
                                                             Hapus
                                                         </button>
                                                         <a type="submit" class="btn btn-success" href="<?= base_url(); ?>QrPdfController/index?nomember=<?= $regist['no_member']; ?>">cetak </a>
+                                            
                                                         
                                                         
                                                         <!-- Modal -->

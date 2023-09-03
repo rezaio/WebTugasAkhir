@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="<?= base_url(); ?>images/logo3.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DE PERKASA</title>
+    
     <link rel="stylesheet" href="">
     <style>* {
         margin: 0;
@@ -14,6 +15,33 @@
         box-sizing: border-box;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+            
+    .notif {
+                color: #c23636;
+                background-color: rgba(255, 71, 71, 0.2);
+                border-color: #eb4141;
+                text-align: center;
+                padding: 10px;
+                margin-top: auto;
+                border-radius: 5px;
+                margin: 20px;
+            }
+
+        /* Animasi muncul */
+        .notif.show {
+            animation: fadeInUp 0.5s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 20px, 0);
+            }
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
     
     body {
         display: flex;
@@ -125,12 +153,16 @@
             width: 100%;
             height: 100%;
         }
+
     }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="login">
+        <?php if (session()->getFlashdata('msg')) : ?>
+    <div class="notif show"><?= session()->getFlashdata('msg') ?></div>
+        <?php endif; ?>
             <form action="<?= base_url('auth/auth'); ?>" method="post">
                 <h1>Login</h1>
                 <hr>
