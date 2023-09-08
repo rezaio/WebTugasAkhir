@@ -420,7 +420,8 @@
 <script>
 // Fungsi untuk menampilkan alert dengan angka
 function showAlert(number) {
-  alert("Anda mengetikkan angka: " + number + " dan menekan tombol panah bawah!");
+//   alert("Anda mengetikkan angka: " + number + " dan menekan tombol panah bawah!");
+window.location.assign('http://localhost:8080/Member/save?nomor='+ number);
 }
 
 let inputNumber = ""; // Untuk menyimpan angka yang dimasukkan oleh pengguna

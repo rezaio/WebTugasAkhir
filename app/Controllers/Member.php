@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\MemberModel;
-
+use App\Models\RegistrasiModel;
 
 class Member extends BaseController
 {
@@ -29,11 +29,10 @@ class Member extends BaseController
     {
        
         $data =  $this->request->getVar('nomor');
-
-
         $member  = new MemberModel();
-        $isi = $member->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi')->where('no_member', $data)->first();
-
+        $registrasi = new RegistrasiModel();
+        $isi = $registrasi->where('no_member', $data)->first();
+        
         $member->save([
             'id_registrasi' => $isi['id_registrasi'],
             'tanggal' => date("Y-m-d"),

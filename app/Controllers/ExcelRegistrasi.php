@@ -11,10 +11,6 @@ class ExcelRegistrasi extends BaseController
 {
     public function exporthari()
     {
-        if (isset($_GET['pdf']) =='pdf'){
-            return redirect()->to('pdfcontroller/rekapRegistrasitgl?tgl_aktivasi='.$this->request->getGet('tgl_aktivasi'));
-        }; 
-
         $tanggal = $this->request->getGet('tgl_aktivasi'); 
 
         $registrasiModel = new RegistrasiModel();
@@ -38,11 +34,9 @@ class ExcelRegistrasi extends BaseController
         $sheet->setCellValue('M1', 'pelatih');
         $sheet->setCellValue('N1', 'harga');
 
-
         $column = 2;
         $total = 0;
 
-        
         foreach ($registrasi as $data) {
         $sheet->setCellValue('A'.$column, $column-1);
         $sheet->setCellValue('B'.$column, $data['nama']);   
@@ -67,8 +61,6 @@ class ExcelRegistrasi extends BaseController
 
         $sheet->setCellValue('N' . ($column), 'Total :' . number_format($total, 3, ',', '.'));
         $sheet->getStyle('N'.$column)->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_RIGHT);
-
-
         $sheet->getStyle('A1:N1')->getFont()->setBold(true);
         $sheet->getStyle('A1:N1')->getFill()
             ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
@@ -99,7 +91,6 @@ class ExcelRegistrasi extends BaseController
         $sheet->getColumnDimension('M')->setAutoSize(true);
         $sheet->getColumnDimension('N')->setAutoSize(true);
         
-
         $writer = new Xlsx($spreadsheet);
         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
         header('Content-Disposition: attachment;filename=registrasi.xlsx');
@@ -135,7 +126,6 @@ class ExcelRegistrasi extends BaseController
         $sheet->setCellValue('L1', 'tgl_berakhir');
         $sheet->setCellValue('M1', 'pelatih');
         $sheet->setCellValue('N1', 'harga');
-
 
         $column = 2;
         $total = 0;
@@ -205,10 +195,6 @@ class ExcelRegistrasi extends BaseController
 
     public function exportbulan()
     {
-        if (isset($_GET['pdf']) =='pdf'){
-            return redirect()->to('pdfcontroller/rekapRegistrasibln?tgl_aktivasi='.$this->request->getGet('bulan'));
-        };  
-
         $registrasiModel = new RegistrasiModel();
         $registrasi = $registrasiModel->findAll();
 

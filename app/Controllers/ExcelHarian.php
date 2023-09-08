@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Models\HarianModel;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Pdf;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 
@@ -12,15 +11,11 @@ class ExcelHarian extends BaseController
 {
     public function exporthari()
     { 
-        if (isset($_GET['pdf']) =='pdf'){
-            return redirect()->to('pdfcontroller/rekapHariantgl?tanggal='.$this->request->getGet('tanggal'));
-        }; 
-
+     
         $tanggal = $this->request->getGet('tanggal'); // Ambil tanggal dari input
-
-        
+   
         $harianModel = new HarianModel();
-        $harian = $harianModel->where('tanggal', $tanggal)->findAll(); // Sesuaikan dengan kolom tanggal di model Anda
+        $harian = $harianModel->where('tanggal', $tanggal)->findAll(); // Sesuaikan dengan kolom tanggal di model 
 
 
     $spreadsheet = new Spreadsheet();
@@ -90,22 +85,13 @@ class ExcelHarian extends BaseController
 
 }
 
-public function exportminggu(){
+public function exportminggu()
+{
         
-        // if (isset($_GET['pdf']) =='pdf'){
-        // return redirect()->to('pdfcontroller/rekapHarianminggu?tanggal='.$this->request->getGet('tanggal'));
-        // };
-    // dd($this->request->getGet('tanggal_awal'));
-    
-    
     $tanggala = $this->request->getGet('tanggal_awal'); 
     $tanggalb = $this->request->getGet('tanggal_akhir');
     
-    if ($this->request->getGet('pdf') == 'pdf') {
-        // Redirect to the PDF generation route with start and end dates as parameters
-        return redirect()->to("pdfcontroller/rekapHarianminggu?tanggal_awal=.$tanggala&tanggal_akhir=$tanggalb");
-    }
-    // Check if the 'pdf' parameter is present in the URL
+
     $harianModel = new HarianModel();
         $harian = $harianModel->where('tanggal >=', $tanggala)
                             ->where('tanggal <=', $tanggalb)
@@ -174,16 +160,9 @@ public function exportminggu(){
         header('Cache-Control: mag age-0');
         $writer->save('php://output');
         exit();
-
-
 }
+
 public function exportbulan(){
-
-    // dd($this->request->getGet('bulan'));
-
-    if (isset($_GET['pdf']) =='pdf'){
-        return redirect()->to('pdfcontroller/rekapHarianBln?tanggal='.$this->request->getGet('bulan'));
-    };
 
     $harianModel = new HarianModel();
     $harian = $harianModel->findAll();
@@ -236,8 +215,6 @@ public function exportbulan(){
         $sheet->setCellValue('G' . ($column), 'Total :' . number_format($total, 3, ',', '.'));
         $sheet->getStyle('G'.$column)->getAlignment()->setHorizontal(\PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_RIGHT);
 
-    
-    
     $sheet->getStyle('A2:G2')->getFont()->setBold(true);
     $sheet->getStyle('A2:G2')->getFill()
         ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
@@ -269,6 +246,6 @@ public function exportbulan(){
     $writer->save('php://output');
     exit();
     
-
 }
+
 }

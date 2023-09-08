@@ -11,10 +11,7 @@ class ExcelMember extends BaseController
 {
     public function exporthari()
     {
-        if (isset($_GET['pdf']) =='pdf'){
-            return redirect()->to('pdfcontroller/rekapMembertgl?tanggal='.$this->request->getGet('tanggal'));
-        }; 
-
+        
         $tanggal = $this->request->getGet('tanggal'); 
 
         
@@ -129,9 +126,7 @@ class ExcelMember extends BaseController
     }
     public function exportbulan()
     {
-        if (isset($_GET['pdf']) =='pdf'){
-            return redirect()->to('pdfcontroller/rekapMemberbln?tanggal='.$this->request->getGet('bulan'));
-        }; 
+        
         $memberModel = new MemberModel();
         $member = $memberModel->findAll();
 

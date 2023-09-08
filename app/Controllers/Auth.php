@@ -31,9 +31,9 @@ class Auth extends BaseController
                 $session->set($ses_data);
             
             if ($data['role'] == 'user') {
-                return redirect()->to('/user'); // Arahkan ke /user jika role adalah 'user'.
+                return redirect()->to('/user'); 
             } else {
-                return redirect()->to('/home'); // Arahkan ke /home untuk peran lainnya.
+                return redirect()->to('/home'); 
             }
             
             } else {

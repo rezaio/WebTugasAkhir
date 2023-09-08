@@ -13,6 +13,7 @@
         "endroid/qr-code": "^4.6",
         "laminas/laminas-escaper": "^2.9",
         "phpoffice/phpspreadsheet": "^1.29",
+        "phpoffice/phpword": "^1.1",
         "psr/log": "^1.1"
     },
     "require-dev": {

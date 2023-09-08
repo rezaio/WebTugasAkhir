@@ -33,7 +33,6 @@ class Rekap extends BaseController
             
             'harian' => $harian->countAllResults(),
         ];
-        // helper(['form']);
         echo view('rekap/rekapkelasharian', $data);
     }
 
@@ -44,7 +43,6 @@ class Rekap extends BaseController
             
             'member' => $member->countAllResults(),
         ];
-        // helper(['form']);
         echo view('rekap/rekapmember', $data);
     }
 
@@ -55,7 +53,6 @@ class Rekap extends BaseController
             
             'minuman' => $minuman->countAllResults(),
         ];
-        // helper(['form']);
         echo view('rekap/rekapminuman', $data);
     }
 
@@ -66,7 +63,6 @@ class Rekap extends BaseController
             
             'registrasi' => $registrasi->countAllResults(),
         ];
-        // helper(['form']);
         return view('rekap/rekapregistrasi', $data);
     }
 }

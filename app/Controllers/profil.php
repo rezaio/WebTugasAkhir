@@ -59,7 +59,7 @@ class Profil extends BaseController
             'password' => empty($this->request->getVar('password')) ? $data['password'] : password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'email' => $this->request->getVar('email') ? $this->request->getVar('email') : $data['email'],
             'jabatan' => $this->request->getVar('jabatan') ? $this->request->getVar('jabatan') : $data['jabatan'],
-
+            'role' => $data['role']
         ]);
 
         session()->setFlashdata('pesan', 'profil berhasil diedit');

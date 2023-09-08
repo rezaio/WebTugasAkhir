@@ -3,8 +3,6 @@
 namespace App\Controllers;
 
 use App\Models\RegistrasiModel;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 class Registrasi extends BaseController
 {

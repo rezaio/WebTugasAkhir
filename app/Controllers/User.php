@@ -32,7 +32,6 @@ class User extends BaseController
     {
         $registrasi = new RegistrasiModel();
         $data = [
-            // 'registrasi' => $registrasi->findAll(),
             'registrasi' => $registrasi->findAll(),
             
         ];
@@ -54,9 +53,7 @@ class User extends BaseController
     {
         $harian = new HarianModel();
         $data = [
-            // 'harian' => $harian->findAll(),
             'harian' => $harian->findAll(),
-            // 'harian' => $harian->paginate(4, 'harian'),
 
         ];
         echo view('user/dataharian', $data);
@@ -66,7 +63,6 @@ class User extends BaseController
     {
         $minuman = new MinumanModel();
         $data = [
-            // 'minuman' => $minuman->findAll(),
             'minuman' => $minuman->findAll(),
             'pager' => $minuman->pager
             
@@ -98,7 +94,6 @@ class User extends BaseController
             
             'harian' => $harian->countAllResults(),
         ];
-        // helper(['form']);
         echo view('user/rekap/rekapkelasharian', $data);
     }
 
@@ -109,7 +104,6 @@ class User extends BaseController
             
             'member' => $member->countAllResults(),
         ];
-        // helper(['form']);
         echo view('user/rekap/rekapmember', $data);
     }
 
@@ -120,7 +114,6 @@ class User extends BaseController
             
             'minuman' => $minuman->countAllResults(),
         ];
-        // helper(['form']);
         echo view('user/rekap/rekapminuman', $data);
     }
 
@@ -131,7 +124,6 @@ class User extends BaseController
             
             'registrasi' => $registrasi->countAllResults(),
         ];
-        // helper(['form']);
         return view('user/rekap/rekapregistrasi', $data);
     }
 
@@ -152,25 +144,6 @@ class User extends BaseController
             
         ];
         return view('user/editprofil', $data);
-    }
-
-    public function update()
-    {
-        $profil = new UsersModel();
-        $data = $profil->find($this->request->getVar('id_user'));
-        $profil->replace([
-
-            'id_user' => $this->request->getPost('id_user'),    
-            'username' => $this->request->getVar('username') ? $this->request->getVar('username') : $data['username'],
-            'password' => empty($this->request->getVar('password')) ? $data['password'] : password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-            'email' => $this->request->getVar('email') ? $this->request->getVar('email') : $data['email'],
-            'jabatan' => $this->request->getVar('jabatan') ? $this->request->getVar('jabatan') : $data['jabatan'],
-            
-
-        ]);
-
-        session()->setFlashdata('pesan', 'profil berhasil diedit');
-        return redirect()->to('user/profil');
     }
 
 }
