@@ -1,0 +1,228 @@
+INFO - 2023-09-09 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 03:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 03:28:45 --> Undefined index: no_member
+in APPPATH\Controllers\ExcelMember.php on line 31.
+ 1 APPPATH\Controllers\ExcelMember.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-09 03:30:04 --> Undefined index: no_member
+in APPPATH\Controllers\ExcelMember.php on line 31.
+ 1 APPPATH\Controllers\ExcelMember.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-09 03:30:17 --> Undefined index: no_member
+in APPPATH\Controllers\ExcelMember.php on line 31.
+ 1 APPPATH\Controllers\ExcelMember.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-09 03:43:21 --> Undefined index: nama
+in APPPATH\Controllers\ExcelMember.php on line 51.
+ 1 APPPATH\Controllers\ExcelMember.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-09 03:43:27 --> Undefined index: nama
+in APPPATH\Controllers\ExcelMember.php on line 51.
+ 1 APPPATH\Controllers\ExcelMember.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-09-09 03:49:50 --> mysqli_sql_exception: Unknown column 'member.tanggal' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-09 03:49:50 --> Unknown column 'member.tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = :member.tanggal:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-09-09 03:49:52 --> mysqli_sql_exception: Unknown column 'member.tanggal' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-09 03:49:52 --> Unknown column 'member.tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kunjungan_member`
+INNER JOIN `registrasi` ON `registrasi`.`no_member` = `member`.`no_member`
+WHERE `member`.`tanggal` = :member.tanggal:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-09-09 03:50:49 --> mysqli_sql_exception: Unknown column 'member.tanggal' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-09 03:50:49 --> Unknown column 'member.tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = :member.tanggal:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+ERROR - 2023-09-09 03:50:59 --> mysqli_sql_exception: Unknown column 'member.tanggal' in 'where clause' in C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_deperkasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web_deperkasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web_deperkasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web_deperkasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web_deperkasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web_deperkasa\app\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+#8 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+#9 C:\xampp\htdocs\web_deperkasa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web_deperkasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web_deperkasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-09 03:50:59 --> Unknown column 'member.tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = \'2023-09-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kunjungan_member`
+JOIN `registrasi` ON `registrasi`.`id_registrasi`=`kunjungan_member`.`id_registrasi`
+WHERE `member`.`tanggal` = :member.tanggal:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ExcelMember.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exporthari()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-09 03:59:35 --> Undefined index: nama
+in APPPATH\Controllers\ExcelMember.php on line 98.
+ 1 APPPATH\Controllers\ExcelMember.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\ExcelMember.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ExcelMember->exportminggu()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelMember))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+INFO - 2023-09-09 04:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 09:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 09:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 09:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 09:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 09:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

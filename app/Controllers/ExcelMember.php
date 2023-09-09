@@ -12,11 +12,17 @@ class ExcelMember extends BaseController
     public function exporthari()
     {
         
-        $tanggal = $this->request->getGet('tanggal'); 
+    // Dapatkan parameter 'tanggal' dari permintaan
+    $tanggal = $this->request->getGet('tanggal');
 
-        
-        $memberModel = new MemberModel();
-        $member = $memberModel->where('tanggal', $tanggal)->findAll();
+    // Inisialisasi Model Member
+    $memberModel = new MemberModel();
+
+    // Lakukan join dengan RegistrasiModel
+    $member = $memberModel
+        ->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi') // Sesuaikan sesuai dengan hubungan tabel Anda
+        ->where('tanggal', $tanggal)
+        ->findAll();    
 
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
@@ -73,7 +79,10 @@ class ExcelMember extends BaseController
         $tanggalb = $this->request->getGet('tanggal_akhir');
 
         $memberModel = new MemberModel();
-        $member = $memberModel->where('tanggal >=', $tanggala)
+
+        
+        $member = $memberModel->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi') 
+                            ->where('tanggal >=', $tanggala)
                             ->where('tanggal <=', $tanggalb)
                           ->findAll();
 
@@ -128,7 +137,8 @@ class ExcelMember extends BaseController
     {
         
         $memberModel = new MemberModel();
-        $member = $memberModel->findAll();
+        $member = $memberModel->join('registrasi','registrasi.id_registrasi=kunjungan_member.id_registrasi') 
+                                ->findAll();
 
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
