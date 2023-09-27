@@ -34,9 +34,7 @@
                                     <!-- Button trigger modal -->
                                 <a type="button" class="btn btn-primary fa fa-plus" href="<?= base_url(); ?>registrasi/add">
                                 Member </a>
-                                <!-- <a type="button" class="btn btn-success fa fa-print" href="<?= base_url(); ?>registrasi/export">
-                                   Excel</a>
-                                   <a type="button" class="btn btn-danger fa fa-print" href="<?= base_url(); ?>pdfcontroller/rekapRegistrasi">PDF</a> -->
+                                
                                 </div>
                                 <table id="bootstrap-data-table" class="table table-striped table-bordered">
                                             <thead>
@@ -84,10 +82,8 @@
                                                         <button type="button" class="mx-1 btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter<?= $regist['id_registrasi']; ?>">
                                                             Hapus
                                                         </button>
-                                                        <a type="submit" class="btn btn-success" href="<?= base_url(); ?>QrPdfController/index?nomember=<?= $regist['no_member']; ?>">cetak </a>
-                                            
-                                                        
-                                                        
+                                                        <a type="submit" class="btn btn-success" href="<?= base_url(); ?>QrController/index?nomember=<?= $regist['no_member']; ?>">cetak </a>
+                                                    
                                                         <!-- Modal -->
                                                         <div class="modal fade" id="exampleModalCenter<?= $regist['id_registrasi']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                                             <div class="modal-dialog modal-dialog-centered" role="document">

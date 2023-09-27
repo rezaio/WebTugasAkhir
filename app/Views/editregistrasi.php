@@ -51,7 +51,7 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Lahir</label>
-                                                    <input name="tanggal_lahir" type="text" value="<?= $registrasi['tanggal_lahir']; ?>" class="form-control" placeholder="Masukkan tanggal lahir" id="name">
+                                                    <input name="tanggal_lahir" type="date" value="<?= $registrasi['tanggal_lahir']; ?>" class="form-control" placeholder="Masukkan tanggal lahir" id="name">
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -88,13 +88,13 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Aktivasi</label>
-                                                    <input name="tgl_aktivasi"  type="text" value="<?= $registrasi['tgl_aktivasi']; ?>" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
+                                                    <input name="tgl_aktivasi"  type="date" value="<?= $registrasi['tgl_aktivasi']; ?>" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Tanggal Berakhir</label>
-                                                    <input name="tgl_berakhir"  type="text" value="<?= $registrasi['tgl_berakhir']; ?>" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
+                                                    <input name="tgl_berakhir"  type="date" value="<?= $registrasi['tgl_berakhir']; ?>" class="form-control" placeholder="Masukkan Tanggal Aktivasi" id="name">
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -103,7 +103,6 @@
                                                     <input name="pelatih"  type="text" value="<?= $registrasi['pelatih']; ?>" class="form-control" placeholder="Masukkan Nomor Member" id="name">
                                                   </div>
                                             </div>
-                                            
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Harga</label>

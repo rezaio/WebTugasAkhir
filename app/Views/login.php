@@ -174,7 +174,7 @@
                 <button type="submit">login</button></a>
                 <!-- <p>
                     <div class="register-link m-t-15 text-center">
-                        <p>Belum Punya Akun ? <a href="<?= base_url(); ?>auth/register"> Daftar Disini</a></p>
+                        <p>belum punya akun? <a href="<?= base_url(); ?>register/index"> Masuk Disini</a></p>
                     </div>
                 </p> -->
             </form>

@@ -1,0 +1,272 @@
+INFO - 2023-09-16 03:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 03:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 03:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-16 04:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-16 06:05:05 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\exports/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:11:17 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\QrController.php on line 46.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('QrController/index')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('QrController/index')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('QrController/index')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:23:20 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\exports/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:26:56 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\exports/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:27:35 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\export/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:30:07 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\downloads/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\downloads/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\downloads/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\downloads/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:30:17 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\exports/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\exports/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 06:30:23 --> Could not open 'C:\xampp\htdocs\web_deperkasa\writable\export/document.docx' for writing.
+in VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\AbstractWriter.php on line 286.
+ 1 VENDORPATH\phpoffice\phpword\src\PhpWord\Writer\Word2007.php(99): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 2 VENDORPATH\phpoffice\phpword\src\PhpWord\PhpWord.php(324): PhpOffice\PhpWord\Writer\Word2007->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 3 APPPATH\Controllers\QrController.php(34): PhpOffice\PhpWord\PhpWord->save('C:\\xampp\\htdocs\\web_deperkasa\\writable\\export/document.docx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:00:57 --> Invalid argument supplied for foreach()
+in APPPATH\Views\qr_pdf.php on line 40.
+ 1 APPPATH\Views\qr_pdf.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(42): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:04:09 --> Invalid argument supplied for foreach()
+in APPPATH\Views\qr_pdf.php on line 40.
+ 1 APPPATH\Views\qr_pdf.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(42): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:27:27 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\QrController.php on line 27.
+ 1 APPPATH\Controllers\QrController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:30:18 --> Undefined index: nomor_member
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomor_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:30:19 --> Undefined index: nomor_member
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomor_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:30:20 --> Undefined index: nomor_member
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomor_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:30:21 --> Undefined index: nomor_member
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomor_member', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:31:17 --> Undefined index: nomember
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomember', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:31:18 --> Undefined index: nomember
+in APPPATH\Controllers\QrController.php on line 28.
+ 1 APPPATH\Controllers\QrController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomember', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Controllers\\QrController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:31:51 --> Invalid file: "qr_pdf_multi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('qr_pdf_multi.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf_multi', [], true)
+ 3 APPPATH\Controllers\QrController.php(54): view('qr_pdf_multi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:32:11 --> Undefined variable: data
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(54): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:33:08 --> Array to string conversion
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(54): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:33:17 --> Array to string conversion
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(54): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:33:49 --> Undefined variable: qrCode
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: qrCode', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(54): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:34:39 --> Undefined variable: Data
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(54): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:37:24 --> Undefined variable: Data
+in APPPATH\Views\qr_pdf.php on line 41.
+ 1 APPPATH\Views\qr_pdf.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Data', 'C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_deperkasa\\app\\Views\\qr_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('qr_pdf', [], true)
+ 5 APPPATH\Controllers\QrController.php(42): view('qr_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 07:59:05 --> CodeIgniter\Router\AutoRouter::main(): Failed opening required 'path_to_phpword/autoload.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\QrController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-16 07:59:09 --> CodeIgniter\Router\AutoRouter::main(): Failed opening required 'path_to_phpword/autoload.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\QrController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-16 07:59:26 --> App\Controllers\QrController::index(): Failed opening required 'path_to_phpword/autoload.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\QrController.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-16 07:59:33 --> Argument 2 passed to Endroid\QrCode\Writer\PngWriter::write() must be an instance of Endroid\QrCode\Logo\LogoInterface or null, string given, called in C:\xampp\htdocs\web_deperkasa\app\Controllers\QrController.php on line 45
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 23.
+ 1 APPPATH\Controllers\QrController.php(45): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), 'path_to_save/qr_code.png')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\QrController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_deperkasa\\public\\index.php')
+CRITICAL - 2023-09-16 08:02:17 --> CodeIgniter\Router\AutoRouter::main(): Failed opening required 'path_to_phpword/autoload.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\QrController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

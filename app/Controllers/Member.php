@@ -33,13 +33,24 @@ class Member extends BaseController
         $registrasi = new RegistrasiModel();
         $isi = $registrasi->where('no_member', $data)->first();
         
+        $tanggal_tujuan = ($isi['tgl_berakhir']);
+
+        // Tanggal hari ini
+        $tanggal_hari_ini = date("Y-m-d");
+
+        if ($tanggal_tujuan < $tanggal_hari_ini) {
+
+            session()->setFlashdata('pesan', 'Tanggal member sudah berakhir');
+            return redirect()->to('member');
+            exit;
+        }
+
         $member->save([
             'id_registrasi' => $isi['id_registrasi'],
             'tanggal' => date("Y-m-d"),
             'waktu' => date("H:i:s"),
         ]);
 
-        session()->setFlashdata('pesan', 'member berhasil ditambahkan');
         return redirect()->to('member');
     }
 
@@ -47,7 +58,7 @@ class Member extends BaseController
     {
         $member = new MemberModel();
         $member->delete($this->request->getPost('id_km'));
-        session()->setFlashdata('pesan', 'Pengunjung member berhasil dihapus');
+
         return redirect()->to('member');
     }
 

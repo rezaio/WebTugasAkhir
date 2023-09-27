@@ -51,14 +51,14 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Nomor KTP</label>
-                                                    <input name="no_ktp" type="text" class="form-control" placeholder="Masukkan Nomor KTP" id="name">
+                                                    <input name="no_ktp" type="number" class="form-control" placeholder="Masukkan Nomor KTP" id="name">
                                                   </div>
                                             </div>
                                             
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Nomor HP</label>
-                                                    <input name="no_telp" type="text" class="form-control" placeholder="Masukkan No. HP" id="name">
+                                                    <input name="no_telp" type="number" class="form-control" placeholder="Masukkan No. HP" id="name">
                                                   </div>
                                             </div>
                                             <div class="col-md-4">
@@ -80,7 +80,7 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label for="name">Nomor Member</label>
-                                                    <input name="no_member" type="text" class="form-control" placeholder="Masukkan Nomor Member" id="name" required>
+                                                    <input name="no_member" type="number" class="form-control" placeholder="Masukkan Nomor Member" id="name" required>
                                                   </div>
                                             </div>
                                             <div class="col-md-4">

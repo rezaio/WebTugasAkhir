@@ -85,6 +85,8 @@
                                                     <button type="submit" class="btn btn-danger">Hapus</button>
                                                     </div>
                                                     </form>
+
+                                                    
                                                 </div>
                                             </div>
                                         </tr>
@@ -92,6 +94,24 @@
                                         <?php endforeach; ?>
                                     </tbody>
                                 </table>
+                                <!-- Modal Bootstrap -->
+                                        <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <!-- Konten modal -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Peringatan</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Tanggal member sudah berakhir</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>

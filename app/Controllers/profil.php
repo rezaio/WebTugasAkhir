@@ -10,6 +10,7 @@ class Profil extends BaseController
     {
         $profil = new UsersModel();
         $data =  $profil->find(session()->get('id_user'));
+        
         echo view('profil', $data);
         
     }
